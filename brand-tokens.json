@@ -1,0 +1,28 @@
+{
+  "brand": "Neurofeedback Luxembourg",
+  "tagline": "Optimize Your Brain, Improve Your Life!",
+  "colors": {
+    "purple": "#813e68",
+    "blue": "#074d79",
+    "magenta": "#9f016b",
+    "softWhite": "#e2d4e2"
+  },
+  "logo": {
+    "primary_svg": "https://github.com/<org>/brand-guide/releases/latest/download/nfb-logo-primary.svg",
+    "primary_png": "https://github.com/<org>/brand-guide/releases/latest/download/nfb-logo-primary.png",
+    "zip_all": "https://github.com/<org>/brand-guide/releases/latest/download/NFB-Brand-Assets-v1.zip"
+  },
+  "social": {
+    "linkedin_cover": "https://github.com/<org>/brand-guide/releases/latest/download/2023_Banner%20Linkedin%20Brain.jpg",
+    "facebook_cover": "https://github.com/<org>/brand-guide/releases/latest/download/Facbook%20Banner.jpg"
+  },
+  "typography": {
+    "primary": "Myriad Pro",
+    "fallback": "Arial, \"Helvetica Neue\", sans-serif"
+  },
+  "governance": {
+    "owner": "François Altwies",
+    "version": "1.0.0",
+    "generated_at": "2025-10-10T12:55:38.682535"
+  }
+}

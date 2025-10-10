@@ -1,0 +1,105 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Neurofeedback Luxembourg — Brand & Style Guide</title>
+  <!-- Replace with your actual OG/Twitter images -->
+  <meta property="og:title" content="Neurofeedback Luxembourg — Brand & Style Guide">
+  <meta property="og:description" content="Logos, colors, tokens, and UI rules for consistent brand usage.">
+  <meta property="og:image" content="https://github.com/<org>/brand-guide/releases/latest/download/2023_Banner%20Linkedin%20Brain.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Neurofeedback Luxembourg — Brand & Style Guide">
+  <meta name="twitter:description" content="Logos, colors, tokens, and UI rules for consistent brand usage.">
+  <meta name="twitter:image" content="https://github.com/<org>/brand-guide/releases/latest/download/2023_Banner%20Linkedin%20Brain.jpg">
+  <style>
+    :root{
+      --nfb-purple:#813e68;
+      --nfb-blue:#074d79;
+      --nfb-magenta:#9f016b;
+      --nfb-soft:#e2d4e2;
+    }
+    html,body{margin:0;padding:0;font-family:Arial,"Helvetica Neue",sans-serif;background:#fff;color:#1b1b1b;line-height:1.5}
+    .wrap{max-width:1100px;margin:0 auto;padding:32px}
+    header{padding:24px 0;border-bottom:4px solid var(--nfb-purple)}
+    h1{font-size:2rem;margin:0 0 8px}
+    h2{margin-top:32px}
+    .grid{display:grid;gap:16px;grid-template-columns:repeat(auto-fit,minmax(240px,1fr))}
+    .card{border:1px solid #ddd;border-radius:12px;padding:16px}
+    .btn{display:inline-block;padding:10px 14px;border-radius:10px;border:1px solid #ddd;text-decoration:none}
+    .btn.primary{background:linear-gradient(135deg,var(--nfb-purple),var(--nfb-blue));color:#fff;border:none}
+    .swatch{height:80px;border-radius:10px;margin-bottom:8px}
+    code,pre{background:#f6f6f6;padding:12px;border-radius:8px;display:block;overflow:auto}
+    footer{margin-top:48px;padding-top:24px;border-top:1px solid #eee;font-size:0.9rem;color:#555}
+  </style>
+  <!-- HOW TO REPLACE DOWNLOAD LINKS:
+       1) Create a GitHub Release and upload assets.
+       2) Replace all https://github.com/<org>/brand-guide/releases/latest/download/... URLs below. -->
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <h1>Neurofeedback Luxembourg — Brand & Style Guide</h1>
+      <p>Optimize Your Brain, Improve Your Life!</p>
+    </header>
+
+    <section>
+      <h2>Downloads</h2>
+      <div class="grid">
+        <div class="card">
+          <h3>All assets (ZIP)</h3>
+          <a class="btn primary" href="https://github.com/<org>/brand-guide/releases/latest/download/NFB-Brand-Assets-v1.zip">Download ZIP</a>
+        </div>
+        <div class="card">
+          <h3>Primary Logo</h3>
+          <a class="btn" href="https://github.com/<org>/brand-guide/releases/latest/download/nfb-logo-primary.svg">SVG</a>
+          <a class="btn" href="https://github.com/<org>/brand-guide/releases/latest/download/nfb-logo-primary.png">PNG</a>
+        </div>
+        <div class="card">
+          <h3>Brand Tokens (JSON)</h3>
+          <a class="btn" href="https://github.com/<org>/brand-guide/releases/latest/download/brand-tokens.json">brand-tokens.json</a>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2>Colors</h2>
+      <div class="grid">
+        <div class="card">
+          <div class="swatch" style="background:#813e68"></div>
+          <strong>Purple</strong> #813e68
+        </div>
+        <div class="card">
+          <div class="swatch" style="background:#074d79"></div>
+          <strong>Blue</strong> #074d79
+        </div>
+        <div class="card">
+          <div class="swatch" style="background:#9f016b"></div>
+          <strong>Magenta</strong> #9f016b
+        </div>
+        <div class="card">
+          <div class="swatch" style="background:#e2d4e2;border:1px solid #ccc"></div>
+          <strong>Soft White</strong> #e2d4e2
+        </div>
+      </div>
+      <h3>CSS tokens</h3>
+      <pre><code>:root{
+  --nfb-purple:#813e68;
+  --nfb-blue:#074d79;
+  --nfb-magenta:#9f016b;
+  --nfb-soft:#e2d4e2;
+}</code></pre>
+    </section>
+
+    <section>
+      <h2>Governance</h2>
+      <p>Owner: François Altwies &nbsp;•&nbsp; Version: 1.0.0</p>
+    </section>
+
+    <footer>
+      <p>No diagnostic claims. For brand and communications use only.</p>
+    </footer>
+  </div>
+</body>
+</html>
