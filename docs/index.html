@@ -1,0 +1,134 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Official brand guidelines for Neurofeedback Luxembourg. Download logos, learn color palettes, typography, and usage guidelines for consistent brand communications." />
+  <title>Neurofeedback Luxembourg — Brand & Style Guide</title>
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://neurofeedback-luxembourg.github.io/brand-guide/">
+  <meta property="og:title" content="Neurofeedback Luxembourg — Brand & Style Guide">
+  <meta property="og:description" content="Official brand guidelines: logos, colors, and usage rules for consistent brand communications. Optimize Your Brain, Improve Your Life!">
+  <meta property="og:image" content="/assets/logos/primary/nfb-logo-primary.png">
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:url" content="https://neurofeedback-luxembourg.github.io/brand-guide/">
+  <meta name="twitter:title" content="Neurofeedback Luxembourg — Brand & Style Guide">
+  <meta name="twitter:description" content="Official brand guidelines: logos, colors, and usage rules for consistent brand communications.">
+  <meta name="twitter:image" content="/assets/logos/primary/nfb-logo-primary.png">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="/assets/logos/favicon/nfb-favicon.png">
+
+  <style>
+    /* ... (existing styles) ... */
+  </style>
+</head>
+<body>
+
+<div class="wrap">
+  <header class="hero">
+    <div>
+      <h1>Neurofeedback Luxembourg — Brand & Style Guide</h1>
+      <p>Optimize Your Brain, Improve Your Life!</p>
+      <p class="meta" style="margin-top:6px">
+        Purpose: a practical, single-page **source-of-truth** for <strong>freelancers</strong> and <strong>LLMs/agents</strong> to produce on-brand content, visuals, and video—fast and consistently.
+      </p>
+      <div class="row" style="margin-top:10px">
+        <a class="btn primary" href="/assets/NFB-Brand-Assets-v1.zip">Download All Assets (ZIP)</a>
+        <a class="btn" href="/data/brand-tokens.json">brand-tokens.json</a>
+      </div>
+      <p class="meta" style="margin-top:10px">Owner: François Altwies • Version: 2.0.0</p>
+    </div>
+  </header>
+
+  <div class="shell">
+    <nav>
+      <strong>Sections</strong>
+      <a href="#logos">Logos</a>
+      <a href="#colors">Colors</a>
+      <a href="#tokens">Code Tokens</a>
+      <a href="#templates">Templates</a>
+      <a href="#usage">Usage & DO/DON’T</a>
+      <a href="#cobrand">Co-branding</a>
+      <a href="#ui">UI Kit</a>
+      <a href="#governance">Governance</a>
+      <a href="#social">Social Channels</a>
+    </nav>
+
+    <main>
+
+      <section id="logos" class="card">
+        <h2>Logo Library</h2>
+        <p class="meta">The simple two-hemisphere brain icon is the logo (purple left, blue right). The 3D/low-poly brain is decorative only.</p>
+        <div class="grid">
+          <div class="card">
+            <h3>Primary Logo</h3>
+            <img alt="Primary logo preview" src="/assets/logos/primary/nfb-logo-primary.png" class="swatch" />
+            <div class="row">
+              <a class="btn" href="/assets/logos/primary/nfb-logo-primary.svg">SVG</a>
+              <a class="btn" href="/assets/logos/primary/nfb-logo-primary.png">PNG</a>
+            </div>
+          </div>
+
+          <div class="card">
+            <h3>Icon (Square)</h3>
+            <img alt="Icon preview" src="/assets/logos/icon/nfb-icon.png" class="swatch" />
+            <div class="row">
+              <a class="btn" href="/assets/logos/icon/nfb-icon.svg">SVG</a>
+              <a class="btn" href="/assets/logos/icon/nfb-icon.png">PNG</a>
+            </div>
+          </div>
+
+          <div class="card">
+            <h3>Favicon</h3>
+            <img alt="Favicon preview" src="/assets/logos/favicon/nfb-favicon.png" class="swatch" />
+            <div class="row">
+              <a class="btn" href="/assets/logos/favicon/nfb-favicon.ico">ICO</a>
+              <a class="btn" href="/assets/logos/favicon/nfb-favicon.png">PNG</a>
+            </div>
+          </div>
+
+          <div class="card">
+            <h3>Social Covers</h3>
+            <p class="meta">LinkedIn cover recommended 1584×396px; keep key content centered for safe cropping on mobile.</p>
+            <div class="row">
+              <a class="btn" href="/assets/social-media/linkedin/linkedin-banner.jpg">LinkedIn</a>
+              <a class="btn" href="/assets/social-media/facebook/facebook-banner.jpg">Facebook</a>
+              <a class="btn" href="/assets/social-media/youtube/youtube-thumb.jpg">YouTube Thumbnail</a>
+              <a class="btn" href="/assets/social-media/youtube/youtube-end.jpg">YouTube End Screen</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ... (rest of the HTML content) ... -->
+
+    </main>
+  </div>
+</div>
+
+<footer>
+  <div class="wrap">
+    <p>No diagnostic claims. For brand and communications use only.</p>
+  </div>
+</footer>
+
+<script>
+  // Copy-to-clipboard for HEX and tokens
+  document.querySelectorAll('[data-copy]').forEach(btn=>{
+    btn.addEventListener('click', async ()=>{
+      try{
+        await navigator.clipboard.writeText(btn.getAttribute('data-copy'));
+        const old = btn.textContent; btn.textContent='Copied!'; setTimeout(()=>btn.textContent=old,1100);
+      }catch(e){ alert('Copy failed'); }
+    });
+  });
+</script>
+</body>
+</html>
+
