@@ -1,11 +1,32 @@
 {
   "brand": "Neurofeedback Luxembourg",
   "tagline": "Optimize Your Brain, Improve Your Life!",
+  "_provenance": "These tokens come from the Canva NFB brand kit (kAFp79HE62Y). For the website implementation tokens (Tailwind v4 theme + DTCG), see Neurofeedback-Luxembourg/design-system → tokens/brands/nfl/semantic.json. The two are reconciled — keep them in sync.",
   "colors": {
-    "purple": "#813e68",
-    "blue": "#074d79",
-    "magenta": "#9f016b",
-    "softWhite": "#e2d4e2"
+    "_canva_logo": {
+      "purple": "#813e68",
+      "blue": "#074d79"
+    },
+    "_canva_gradient": {
+      "primary": "#5d2c4c",
+      "secondary": "#2f5673"
+    },
+    "_canva_web_fonts": {
+      "magenta": "#9f016b",
+      "softWhite": "#e2d4e2",
+      "ink": "#090909",
+      "white": "#ffffff"
+    },
+    "_canva_misc": {
+      "paleBlue": "#edf3f8"
+    },
+    "_brand_gradient": "linear-gradient(90deg, #5d2c4c 0%, #2f5673 100%)",
+    "_legacy_flat": {
+      "purple": "#813e68",
+      "blue": "#074d79",
+      "magenta": "#9f016b",
+      "softWhite": "#e2d4e2"
+    }
   },
   "logo": {
     "primary_png": "/assets/logos/primary/nfb-logo-primary.png",
@@ -13,21 +34,42 @@
     "icon_png": "/assets/logos/icon/nfb-icon.png",
     "favicon_png": "/assets/logos/favicon/nfb-favicon.png",
     "canva_hd_png": "/assets/logos/primary/nfb-logo-canva-hd.png",
-    "canva_hd_copy_png": "/assets/logos/primary/nfb-logo-canva-hd-copy.png",
-    "slogan_vertical_png": "/assets/logos/primary/nfb-logo-slogan-vertical.png"
+    "slogan_vertical_png": "/assets/logos/primary/nfb-logo-slogan-vertical.png",
+    "raw_canva_exports_dir": "/assets/logos/raw-canva-exports/"
   },
+  "photos": {
+    "team_2023_photoshoot_dir": "/assets/photos/team/2023-photoshoot/",
+    "team_francois_dir": "/assets/photos/team/francois/",
+    "website_dir": "/assets/photos/website/",
+    "equipment_pbm_dir": "/assets/photos/equipment/pbm/",
+    "equipment_recoverix_dir": "/assets/photos/equipment/recoverix/",
+    "equipment_vielight_dir": "/assets/photos/equipment/vielight/"
+  },
+  "illustrations_dir": "/assets/illustrations/",
+  "infographics_dir": "/assets/infographics/",
   "social": {
     "linkedin_cover": "/assets/social-media/linkedin/linkedin-banner.jpg",
-    "facebook_cover": "/assets/social-media/facebook/facebook-banner.jpg"
+    "facebook_cover": "/assets/social-media/facebook/facebook-banner.jpg",
+    "youtube_dir": "/assets/social-media/youtube/",
+    "campaigns_dir": "/assets/social-media/campaigns/",
+    "educational_dir": "/assets/social-media/educational/"
   },
   "typography": {
-    "primary": "Myriad Pro",
-    "fallback": "Arial, \"Helvetica Neue\", sans-serif"
+    "logo": "Myriad Pro",
+    "fallback": "Arial, \"Helvetica Neue\", sans-serif",
+    "_web_stack": {
+      "_note": "Web typography is NOT in the Canva brand kit. Source of truth: design-system/tokens/brands/nfl/semantic.json",
+      "heading": "Inter",
+      "body": "Roboto",
+      "serif": "Roboto Slab",
+      "recoverix_override": "Open Sans"
+    }
   },
   "governance": {
     "owner": "François Altwies",
-    "version": "1.0.0",
-    "generated_at": "2025-10-10T12:55:38.682535"
+    "version": "1.1.0",
+    "generated_at": "2026-04-25T21:30:00.000000",
+    "upstream_design_system": "https://github.com/Neurofeedback-Luxembourg/design-system/tree/master/tokens/brands/nfl"
   }
 }
 
