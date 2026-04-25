@@ -11,6 +11,12 @@
       "primary": "#5d2c4c",
       "secondary": "#2f5673"
     },
+    "_website_only": {
+      "_note": "Defined in design-system/tokens/brands/nfl/semantic.json — not in Canva brand kit",
+      "accent": "#026d66",
+      "warm": "#ffbc7d",
+      "muted": "#6b5a74"
+    },
     "_canva_web_fonts": {
       "magenta": "#9f016b",
       "softWhite": "#e2d4e2",
