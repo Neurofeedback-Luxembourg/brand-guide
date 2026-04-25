@@ -1,134 +1,425 @@
-
 <!doctype html>
 <html lang="en">
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="description" content="Official brand guidelines for Neurofeedback Luxembourg. Download logos, learn color palettes, typography, and usage guidelines for consistent brand communications." />
-  <title>Neurofeedback Luxembourg — Brand & Style Guide</title>
+  <meta name="description" content="Official brand assets for Neurofeedback Luxembourg. Logos, photos, social-media templates. Canonical design tokens live in the design-system repo." />
+  <title>Neurofeedback Luxembourg — Brand Asset Distribution</title>
 
-  <!-- Open Graph / Facebook -->
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://neurofeedback-luxembourg.github.io/brand-guide/">
-  <meta property="og:title" content="Neurofeedback Luxembourg — Brand & Style Guide">
-  <meta property="og:description" content="Official brand guidelines: logos, colors, and usage rules for consistent brand communications. Optimize Your Brain, Improve Your Life!">
+  <meta property="og:title" content="Neurofeedback Luxembourg — Brand Asset Distribution">
+  <meta property="og:description" content="Brand assets (logos, photos, social templates). Optimize Your Brain, Improve Your Life!">
   <meta property="og:image" content="/assets/logos/primary/nfb-logo-primary.png">
 
-  <!-- Twitter -->
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:url" content="https://neurofeedback-luxembourg.github.io/brand-guide/">
-  <meta name="twitter:title" content="Neurofeedback Luxembourg — Brand & Style Guide">
-  <meta name="twitter:description" content="Official brand guidelines: logos, colors, and usage rules for consistent brand communications.">
+  <meta name="twitter:title" content="Neurofeedback Luxembourg — Brand Asset Distribution">
   <meta name="twitter:image" content="/assets/logos/primary/nfb-logo-primary.png">
 
-  <!-- Favicon -->
   <link rel="icon" type="image/png" href="/assets/logos/favicon/nfb-favicon.png">
 
   <style>
-    /* ... (existing styles) ... */
+    :root {
+      --primary: #5D2C4C;
+      --primary-dark: #3F1D35;
+      --secondary: #2F5673;
+      --accent: #026D66;
+      --warm: #FFBC7D;
+      --magenta: #9F016B;
+      --lavender: #E2D4E2;
+      --surface: #FFFFFF;
+      --surface-alt: #F8F6F9;
+      --text: #1E293B;
+      --text-muted: #64748B;
+      --border: #DDD5E0;
+      --gradient-brand: linear-gradient(90deg, #5D2C4C 0%, #2F5673 100%);
+      --shadow-card: 0 4px 20px rgba(93, 44, 76, 0.08);
+      --radius-card: 15px;
+      --radius-button: 8px;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: 'Roboto', system-ui, -apple-system, sans-serif;
+      color: var(--text);
+      line-height: 1.6;
+      background: var(--surface);
+    }
+    h1, h2, h3 {
+      font-family: 'Inter', system-ui, sans-serif;
+      font-weight: 700;
+      letter-spacing: -0.02em;
+      color: var(--primary-dark);
+      margin: 0 0 0.5em;
+    }
+    h1 { font-size: clamp(2rem, 5vw, 3rem); line-height: 1.15; }
+    h2 { font-size: clamp(1.5rem, 3vw, 2.25rem); margin-top: 1em; }
+    h3 { font-size: 1.25rem; }
+    p { margin: 0 0 1em; }
+    a { color: var(--accent); text-decoration: none; }
+    a:hover { color: #014B46; text-decoration: underline; }
+    .wrap { max-width: 1100px; margin: 0 auto; padding: 0 24px; }
+
+    .banner-info {
+      background: var(--lavender);
+      color: var(--primary-dark);
+      padding: 16px 24px;
+      border-left: 4px solid var(--primary);
+      font-size: 0.95rem;
+    }
+    .banner-info a { color: var(--primary-dark); font-weight: 600; }
+
+    .hero {
+      background: var(--gradient-brand);
+      color: #fff;
+      padding: 64px 24px 48px;
+    }
+    .hero h1, .hero h2 { color: #fff; }
+    .hero p { color: rgba(255,255,255,0.9); }
+    .hero .meta { color: rgba(255,255,255,0.75); font-size: 0.95rem; }
+
+    .row { display: flex; flex-wrap: wrap; gap: 12px; align-items: center; }
+    .btn {
+      display: inline-block;
+      padding: 10px 18px;
+      border-radius: var(--radius-button);
+      background: rgba(255,255,255,0.12);
+      color: #fff;
+      border: 1px solid rgba(255,255,255,0.3);
+      font-size: 0.9rem;
+      font-weight: 600;
+      transition: all 0.2s;
+    }
+    .btn:hover { background: rgba(255,255,255,0.22); text-decoration: none; }
+    .btn.primary {
+      background: #fff;
+      color: var(--primary-dark);
+      border-color: #fff;
+    }
+    .btn.primary:hover { background: var(--lavender); }
+
+    section { padding: 48px 0; border-top: 1px solid var(--border); }
+    section h2 { color: var(--primary-dark); }
+
+    .card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-card);
+      box-shadow: var(--shadow-card);
+      padding: 24px;
+    }
+    .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 20px; }
+    .swatch {
+      width: 100%;
+      height: 120px;
+      object-fit: contain;
+      background: var(--surface-alt);
+      border-radius: 8px;
+      padding: 12px;
+    }
+    .color-swatch {
+      width: 100%;
+      height: 80px;
+      border-radius: 8px;
+      margin-bottom: 8px;
+      border: 1px solid var(--border);
+    }
+    .color-card { padding: 16px; }
+    .color-card .hex {
+      font-family: 'IBM Plex Mono', ui-monospace, monospace;
+      font-size: 0.85rem;
+      color: var(--text-muted);
+    }
+    .color-card h4 { margin: 0 0 4px; font-size: 0.95rem; color: var(--primary-dark); }
+    .color-card p { margin: 0; font-size: 0.8rem; color: var(--text-muted); line-height: 1.4; }
+
+    code, pre {
+      font-family: 'IBM Plex Mono', ui-monospace, monospace;
+      background: var(--surface-alt);
+      padding: 2px 6px;
+      border-radius: 4px;
+      font-size: 0.9em;
+    }
+    pre {
+      padding: 16px;
+      overflow-x: auto;
+      line-height: 1.5;
+    }
+
+    .meta { color: var(--text-muted); font-size: 0.9rem; }
+    .ds-row { display: grid; grid-template-columns: 1fr; gap: 16px; }
+    @media (min-width: 720px) { .ds-row { grid-template-columns: repeat(3, 1fr); } }
+    .ds-row .card { border-left: 4px solid var(--primary); }
+
+    footer {
+      background: var(--primary-dark);
+      color: rgba(255,255,255,0.7);
+      padding: 32px 24px;
+      margin-top: 48px;
+      font-size: 0.85rem;
+    }
+    footer .wrap { display: flex; flex-wrap: wrap; gap: 16px; justify-content: space-between; align-items: center; }
+    footer a { color: rgba(255,255,255,0.85); }
   </style>
 </head>
 <body>
 
-<div class="wrap">
-  <header class="hero">
-    <div>
-      <h1>Neurofeedback Luxembourg — Brand & Style Guide</h1>
-      <p>Optimize Your Brain, Improve Your Life!</p>
-      <p class="meta" style="margin-top:6px">
-        Purpose: a practical, single-page **source-of-truth** for <strong>freelancers</strong> and <strong>LLMs/agents</strong> to produce on-brand content, visuals, and video—fast and consistently.
-      </p>
-      <div class="row" style="margin-top:10px">
-        <a class="btn primary" href="/assets/NFB-Brand-Assets-v1.zip">Download All Assets (ZIP)</a>
-        <a class="btn" href="/data/brand-tokens.json">brand-tokens.json</a>
-      </div>
-      <p class="meta" style="margin-top:10px">Owner: François Altwies • Version: 2.0.0</p>
-    </div>
-  </header>
-
-  <div class="shell">
-    <nav>
-      <strong>Sections</strong>
-      <a href="#logos">Logos</a>
-      <a href="#colors">Colors</a>
-      <a href="#tokens">Code Tokens</a>
-      <a href="#templates">Templates</a>
-      <a href="#usage">Usage & DO/DON’T</a>
-      <a href="#cobrand">Co-branding</a>
-      <a href="#ui">UI Kit</a>
-      <a href="#governance">Governance</a>
-      <a href="#social">Social Channels</a>
-    </nav>
-
-    <main>
-
-      <section id="logos" class="card">
-        <h2>Logo Library</h2>
-        <p class="meta">The simple two-hemisphere brain icon is the logo (purple left, blue right). The 3D/low-poly brain is decorative only.</p>
-        <div class="grid">
-          <div class="card">
-            <h3>Primary Logo</h3>
-            <img alt="Primary logo preview" src="/assets/logos/primary/nfb-logo-primary.png" class="swatch" />
-            <div class="row">
-              <a class="btn" href="/assets/logos/primary/nfb-logo-primary.svg">SVG</a>
-              <a class="btn" href="/assets/logos/primary/nfb-logo-primary.png">PNG</a>
-            </div>
-          </div>
-
-          <div class="card">
-            <h3>Icon (Square)</h3>
-            <img alt="Icon preview" src="/assets/logos/icon/nfb-icon.png" class="swatch" />
-            <div class="row">
-              <a class="btn" href="/assets/logos/icon/nfb-icon.svg">SVG</a>
-              <a class="btn" href="/assets/logos/icon/nfb-icon.png">PNG</a>
-            </div>
-          </div>
-
-          <div class="card">
-            <h3>Favicon</h3>
-            <img alt="Favicon preview" src="/assets/logos/favicon/nfb-favicon.png" class="swatch" />
-            <div class="row">
-              <a class="btn" href="/assets/logos/favicon/nfb-favicon.ico">ICO</a>
-              <a class="btn" href="/assets/logos/favicon/nfb-favicon.png">PNG</a>
-            </div>
-          </div>
-
-          <div class="card">
-            <h3>Social Covers</h3>
-            <p class="meta">LinkedIn cover recommended 1584×396px; keep key content centered for safe cropping on mobile.</p>
-            <div class="row">
-              <a class="btn" href="/assets/social-media/linkedin/linkedin-banner.jpg">LinkedIn</a>
-              <a class="btn" href="/assets/social-media/facebook/facebook-banner.jpg">Facebook</a>
-              <a class="btn" href="/assets/social-media/youtube/youtube-thumb.jpg">YouTube Thumbnail</a>
-              <a class="btn" href="/assets/social-media/youtube/youtube-end.jpg">YouTube End Screen</a>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <!-- ... (rest of the HTML content) ... -->
-
-    </main>
-  </div>
+<div class="banner-info">
+  📐 <strong>Brand asset distribution.</strong> The canonical brand tokens
+  live in <code>github.com/Neurofeedback-Luxembourg/design-system</code>
+  (DTCG format, builds CSS via Style Dictionary). This page is for downloading
+  logos and assets. For brand strategy, see <code>brand-os</code>. Last
+  updated: 2026-04-25.
 </div>
+
+<header class="hero">
+  <div class="wrap">
+    <h1>Neurofeedback Luxembourg — Brand Assets</h1>
+    <p style="font-size: 1.15rem;">Optimize Your Brain, Improve Your Life!</p>
+    <p class="meta">A practical asset distribution page for freelancers, partners, and AI agents producing on-brand content.</p>
+    <div class="row" style="margin-top:20px">
+      <a class="btn primary" href="/data/brand-tokens.json">brand-tokens.json</a>
+      <a class="btn" href="https://github.com/Neurofeedback-Luxembourg/design-system">Design System (canonical)</a>
+      <a class="btn" href="/assets/MANIFEST.html">Asset Manifest</a>
+    </div>
+    <p class="meta" style="margin-top:16px">Owner: François Altwies · Servicium SA · Version 2.1.0</p>
+  </div>
+</header>
+
+<section id="logos">
+  <div class="wrap">
+    <h2>Logos</h2>
+    <p class="meta">The two-hemisphere brain icon (purple-rose / navy) is the brand mark. Always pull from this folder; never copy logos elsewhere.</p>
+    <div class="grid" style="margin-top: 24px;">
+      <div class="card">
+        <h3>Primary Logo</h3>
+        <img alt="Primary logo preview" src="/assets/logos/primary/nfb-logo-primary.png" class="swatch" />
+        <div class="row" style="margin-top: 12px;">
+          <a class="btn primary" href="/assets/logos/primary/nfb-logo-primary.png" download>PNG</a>
+          <a class="btn primary" href="/assets/logos/primary/nfb-logo-primary.gif" download>GIF</a>
+        </div>
+        <p class="meta" style="margin-top: 8px;">Use for site header, email signatures, documents.</p>
+      </div>
+
+      <div class="card">
+        <h3>HD Canva Export</h3>
+        <img alt="HD logo preview" src="/assets/logos/primary/nfb-logo-canva-hd.png" class="swatch" />
+        <div class="row" style="margin-top: 12px;">
+          <a class="btn primary" href="/assets/logos/primary/nfb-logo-canva-hd.png" download>PNG (HD)</a>
+        </div>
+        <p class="meta" style="margin-top: 8px;">Higher-resolution for print and large-format use.</p>
+      </div>
+
+      <div class="card">
+        <h3>Slogan (Vertical)</h3>
+        <img alt="Slogan vertical preview" src="/assets/logos/primary/nfb-logo-slogan-vertical.png" class="swatch" />
+        <div class="row" style="margin-top: 12px;">
+          <a class="btn primary" href="/assets/logos/primary/nfb-logo-slogan-vertical.png" download>PNG</a>
+        </div>
+        <p class="meta" style="margin-top: 8px;">Square/vertical layouts (Instagram, profile cards).</p>
+      </div>
+
+      <div class="card">
+        <h3>Square Icon</h3>
+        <img alt="Icon preview" src="/assets/logos/icon/nfb-icon.png" class="swatch" />
+        <div class="row" style="margin-top: 12px;">
+          <a class="btn primary" href="/assets/logos/icon/nfb-icon.png" download>PNG</a>
+        </div>
+        <p class="meta" style="margin-top: 8px;">App tiles, social profile pictures.</p>
+      </div>
+
+      <div class="card">
+        <h3>Favicon</h3>
+        <img alt="Favicon preview" src="/assets/logos/favicon/nfb-favicon.png" class="swatch" />
+        <div class="row" style="margin-top: 12px;">
+          <a class="btn primary" href="/assets/logos/favicon/nfb-favicon.png" download>PNG</a>
+        </div>
+        <p class="meta" style="margin-top: 8px;">Browser favicon (16×16, 32×32, 48×48).</p>
+      </div>
+
+      <div class="card">
+        <h3>Social: LinkedIn</h3>
+        <img alt="LinkedIn banner preview" src="/assets/social-media/linkedin/linkedin-banner.jpg" class="swatch" />
+        <div class="row" style="margin-top: 12px;">
+          <a class="btn primary" href="/assets/social-media/linkedin/linkedin-banner.jpg" download>JPG</a>
+        </div>
+        <p class="meta" style="margin-top: 8px;">1584×396 banner with safe-crop margin.</p>
+      </div>
+    </div>
+    <p class="meta" style="margin-top: 16px;">Need SVG / ICO / Facebook cover / YouTube thumbnail? They're not yet exported. Open an issue or ask via <code>kanban</code>.</p>
+  </div>
+</section>
+
+<section id="colors">
+  <div class="wrap">
+    <h2>Colors</h2>
+    <p class="meta">Two coordinated palettes. The <strong>website palette</strong> (plum-teal) is canonical for UI surfaces. The <strong>illustration palette</strong> (magenta-cyan) is for the 3D-brain hero illustration only. Don't mix them within the same surface.</p>
+
+    <h3 style="margin-top: 32px;">Website palette (use for UI)</h3>
+    <div class="grid" style="margin-top: 16px;">
+      <div class="card color-card">
+        <div class="color-swatch" style="background: #5D2C4C;"></div>
+        <h4>Primary — Deep Plum</h4>
+        <span class="hex">#5D2C4C</span>
+        <p>Headers, button fills, key surfaces, gradient origin.</p>
+      </div>
+      <div class="card color-card">
+        <div class="color-swatch" style="background: #2F5673;"></div>
+        <h4>Secondary — Brain-Map Teal-Blue</h4>
+        <span class="hex">#2F5673</span>
+        <p>Gradient destination, scientific/data sections.</p>
+      </div>
+      <div class="card color-card">
+        <div class="color-swatch" style="background: #026D66;"></div>
+        <h4>Accent — Deep Teal</h4>
+        <span class="hex">#026D66</span>
+        <p>Focus rings, in-prose links, success indicators. Never CTAs.</p>
+      </div>
+      <div class="card color-card">
+        <div class="color-swatch" style="background: #FFBC7D;"></div>
+        <h4>Warm — Apricot</h4>
+        <span class="hex">#FFBC7D</span>
+        <p>Hero radial glow at low alpha. Sparingly.</p>
+      </div>
+      <div class="card color-card">
+        <div class="color-swatch" style="background: #9F016B;"></div>
+        <h4>Campaign Magenta</h4>
+        <span class="hex">#9F016B</span>
+        <p>Canva web-fonts magenta. Campaign emphasis only, max 1 element per viewport.</p>
+      </div>
+      <div class="card color-card">
+        <div class="color-swatch" style="background: #E2D4E2;"></div>
+        <h4>Lavender</h4>
+        <span class="hex">#E2D4E2</span>
+        <p>Soft surface / badge backgrounds.</p>
+      </div>
+    </div>
+
+    <h3 style="margin-top: 32px;">Brand gradient</h3>
+    <div class="card" style="margin-top: 16px;">
+      <div style="height: 80px; border-radius: 8px; background: linear-gradient(90deg, #5D2C4C 0%, #2F5673 100%);"></div>
+      <p style="margin-top: 12px;"><code>linear-gradient(90deg, #5D2C4C 0%, #2F5673 100%)</code></p>
+      <p class="meta">Hero, footer, primary CTA section. The brand's signature visual gesture.</p>
+    </div>
+
+    <h3 style="margin-top: 32px;">Illustration palette (3D brain only)</h3>
+    <div class="grid" style="margin-top: 16px;">
+      <div class="card color-card">
+        <div class="color-swatch" style="background: #D91D73;"></div>
+        <h4>Vibrant Magenta</h4>
+        <span class="hex">#D91D73</span>
+        <p>Left brain hemisphere of 3D illustration only.</p>
+      </div>
+      <div class="card color-card">
+        <div class="color-swatch" style="background: #00B8D4;"></div>
+        <h4>Vibrant Cyan</h4>
+        <span class="hex">#00B8D4</span>
+        <p>Right brain hemisphere of 3D illustration only.</p>
+      </div>
+      <div class="card color-card">
+        <div class="color-swatch" style="background: linear-gradient(90deg, #D91D73 0%, #5B3A5E 35%, #2B5876 65%, #00B8D4 100%);"></div>
+        <h4>Brain-Hemisphere Gradient</h4>
+        <span class="hex">4-stop magenta → cyan</span>
+        <p>For the 3D low-poly brain hero illustration only.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="typography">
+  <div class="wrap">
+    <h2>Typography</h2>
+    <div class="grid" style="margin-top: 16px;">
+      <div class="card">
+        <h3>Inter (web headings)</h3>
+        <p style="font-family: 'Inter', sans-serif; font-weight: 700; font-size: 1.6rem; letter-spacing: -0.02em; color: var(--primary-dark);">Neurofeedback Luxembourg</p>
+        <p class="meta">All web headings. Weight 700, tracking -0.02em.</p>
+      </div>
+      <div class="card">
+        <h3>Roboto (web body)</h3>
+        <p style="font-family: 'Roboto', sans-serif; font-size: 1rem;">Optimize Your Brain, Improve Your Life — clinical warmth meets evidence-based neurotechnology.</p>
+        <p class="meta">All web body, lists, captions. Multilingual-safe (EN/FR/DE/LU).</p>
+      </div>
+      <div class="card">
+        <h3>Myriad Pro (logo)</h3>
+        <p class="meta">Logo wordmark only. Embed as SVG/PNG; never live text on web.</p>
+      </div>
+      <div class="card">
+        <h3>Montserrat (marketing)</h3>
+        <p class="meta">Print collateral, social-media campaign cards, presentations. NOT for the website.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="tokens">
+  <div class="wrap">
+    <h2>Code tokens</h2>
+    <p>Machine-readable tokens for developers and AI agents:</p>
+    <div class="ds-row" style="margin-top: 16px;">
+      <div class="card">
+        <h3>brand-tokens.json (this repo)</h3>
+        <p class="meta">Canva-derived tokens, asset paths, basic palette.</p>
+        <a class="btn primary" href="/data/brand-tokens.json">View JSON</a>
+      </div>
+      <div class="card">
+        <h3>semantic.json (canonical)</h3>
+        <p class="meta">DTCG format. Source of truth for web colors + typography.</p>
+        <a class="btn primary" href="https://github.com/Neurofeedback-Luxembourg/design-system/blob/main/tokens/brands/nfl/semantic.json">View on GitHub</a>
+      </div>
+      <div class="card">
+        <h3>design.md (Google Labs spec)</h3>
+        <p class="meta">design-system spec mirror. Generated from semantic.json.</p>
+        <a class="btn primary" href="https://github.com/Neurofeedback-Luxembourg/design-system/blob/main/tokens/brands/nfl/design.md">View on GitHub</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="usage">
+  <div class="wrap">
+    <h2>Usage rules</h2>
+    <h3>Do</h3>
+    <ul>
+      <li>Use the brand gradient on hero, footer, primary CTA — it's the brand's signature gesture.</li>
+      <li>Pair plum-teal for UI; magenta-cyan only for the 3D brain illustration.</li>
+      <li>Keep <code>:focus-visible</code> outlines (2px <code>#026D66</code> teal at 2px offset).</li>
+      <li>Use <code>#9F016B</code> magenta for campaign emphasis, max 1 element per viewport.</li>
+    </ul>
+    <h3>Don't</h3>
+    <ul>
+      <li>Don't use illustration magenta or cyan for body text, button fills, or focus rings.</li>
+      <li>Don't render Myriad Pro as live text on web — embed logos as SVG/PNG.</li>
+      <li>Don't introduce new brand colors without updating <code>semantic.json</code> first.</li>
+      <li>Don't use medical-claim language ("treatment", "cure", "diagnosis") — see <code>compliance.json</code>.</li>
+    </ul>
+  </div>
+</section>
+
+<section id="manifest">
+  <div class="wrap">
+    <h2>Asset manifest</h2>
+    <p>For the full categorization of assets in this repo, see
+    <a href="https://github.com/Neurofeedback-Luxembourg/brand-guide/blob/main/assets/MANIFEST.md">assets/MANIFEST.md</a>.
+    </p>
+    <p class="meta">If a logo / photo / template you need isn't here, open an issue on the
+    <a href="https://github.com/Neurofeedback-Luxembourg/brand-guide/issues">brand-guide repo</a>
+    or post to the <code>kanban</code> board.</p>
+  </div>
+</section>
 
 <footer>
   <div class="wrap">
-    <p>No diagnostic claims. For brand and communications use only.</p>
+    <p>© Servicium SA · Brand & communications use only · No diagnostic claims.</p>
+    <p>
+      <a href="https://github.com/Neurofeedback-Luxembourg/design-system">design-system</a>
+      ·
+      <a href="https://github.com/Neurofeedback-Luxembourg/brand-guide">brand-guide</a>
+      ·
+      <a href="https://github.com/Neurofeedback-Luxembourg/brand-os">brand-os</a>
+    </p>
   </div>
 </footer>
 
-<script>
-  // Copy-to-clipboard for HEX and tokens
-  document.querySelectorAll('[data-copy]').forEach(btn=>{
-    btn.addEventListener('click', async ()=>{
-      try{
-        await navigator.clipboard.writeText(btn.getAttribute('data-copy'));
-        const old = btn.textContent; btn.textContent='Copied!'; setTimeout(()=>btn.textContent=old,1100);
-      }catch(e){ alert('Copy failed'); }
-    });
-  });
-</script>
 </body>
 </html>
-

@@ -83,8 +83,26 @@ content to be labeled. See `tokens/brands/nfl/compliance.json`.
 
 ## Open triage items
 
-- `photos/team/francois/2022_09_28_gaufre.jpeg` (11MB) — likely a personal
-  meal photo, may not be brand. Confirm or move to archive.
 - Several "image (1).jpg", "image (2).jpg" loose files were dropped — if
   any were important, recover from
   `C:\Users\Neurofeedback LXBG\Pictures\` (still intact).
+
+## 2026-04-25 privacy cleanup
+
+After a critical review by Codex, Gemini, Sonnet, and Nemotron flagged
+that `brand-guide` is **public** and contained personal/junk content,
+the following were moved out of the repo to a local-only private path
+(`~/brand-assets-private/photos/team/francois/` on Beast1):
+
+- `2022_09_28_gaufre.jpeg` (11 MB) — personal waffle photo
+- `2019_12_07_Eating_Brain.jpg` — personal meal photo
+- `2023-03-28 22_33_14-Accueil • Neurofeedback Luxembourg.png` — desktop screenshot
+- `2023-08-11 21_57_30-_J5A1437.jpg ‎- Photos.jpg` — Windows Photos app screenshot
+- `Generated Image August 27, 2025 - 1_31PM.jpeg` — AI playground output
+- `ME_FB_Questioning.jpg` — likely Facebook avatar
+
+Also removed all `desktop.ini` artifacts (Windows folder metadata) from
+the repo, and added them to `.gitignore`.
+
+If any of those moved files were actually brand-relevant, recover from
+the private path or from the original `C:\Users\Neurofeedback LXBG\Pictures\`.
