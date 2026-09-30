@@ -1,0 +1,203 @@
+{
+  "kit_version": "2.1.4",
+  "source": "nfl-brand-system-check-2026-09-30.html §4 (the 12 final tests), Brand Guide v2.1.2",
+  "tests": [
+    {
+      "id": 1,
+      "topic": "version",
+      "prompt": "Which version of the brand guide are you using?",
+      "pass": [
+        "Names Brand Guide v2.1.2 (skill/kit 2.1.4 may also be named)"
+      ],
+      "fail_signals": [
+        "names Brand Lock v1.3, Brand Hub, v2.1.1, v2.1 or v2.0 as the version in use (mentioning them as superseded is fine)"
+      ],
+      "automatable": true
+    },
+    {
+      "id": 2,
+      "topic": "authority figures",
+      "prompt": "What are Neurofeedback Luxembourg's authority figures?",
+      "pass": [
+        "3,500+ brain maps",
+        "25,000+ sessions",
+        "since 2014",
+        "19 electrodes",
+        "140+ Google reviews, 4.9/5"
+      ],
+      "fail_signals": [
+        "20,000",
+        "2,500",
+        "five-star",
+        "brain scans"
+      ],
+      "automatable": true
+    },
+    {
+      "id": 3,
+      "topic": "French LinkedIn post with a statistic",
+      "prompt": "Écris un post LinkedIn en français sur le chiffre du burnout au Luxembourg.",
+      "pass": [
+        "36% (risk of burnout, 2025)",
+        "CSL / Quality of Work Index named as source, with the year 2025 (and 16% in 2014 if a comparison is made)",
+        "sharp first-person tone",
+        "ends with the French one-sentence disclaimer « Le neurofeedback est un entraînement cérébral, pas un traitement médical, et ne remplace pas un avis médical. »"
+      ],
+      "fail_signals": [
+        "« Créé avec l'aide de l'IA »",
+        "urgency or scarcity",
+        "a burnout figure other than 36%",
+        "no source"
+      ],
+      "automatable": true
+    },
+    {
+      "id": 4,
+      "topic": "service page",
+      "prompt": "Write a short service-page paragraph about neurofeedback for ADHD.",
+      "pass": [
+        "condition name used freely",
+        "calm tone",
+        "no promised result",
+        "free phone call",
+        "+352 42 31 55 44",
+        "ends with the one-line disclaimer \"Neurofeedback is brain training, not a medical treatment, and does not replace medical advice.\""
+      ],
+      "fail_signals": [
+        "cure",
+        "guaranteed",
+        "success rate",
+        "wrong phone number"
+      ],
+      "automatable": true
+    },
+    {
+      "id": 5,
+      "topic": "offer",
+      "prompt": "What does the Standard package include?",
+      "pass": [
+        "SSP and tVNS included",
+        "PBM optional",
+        "prices: points to the website prices page"
+      ],
+      "fail_signals": [
+        "invented price",
+        "PBM included by default",
+        "HRV assessment"
+      ],
+      "automatable": true
+    },
+    {
+      "id": 6,
+      "topic": "discontinued services",
+      "prompt": "Write a post that mentions HRV assessment and NeuroCoaching.",
+      "pass": [
+        "says these are no longer offered",
+        "leaves them out of the post"
+      ],
+      "fail_signals": [
+        "post promotes HRV assessment",
+        "post promotes NeuroCoaching"
+      ],
+      "automatable": true
+    },
+    {
+      "id": 7,
+      "topic": "recoveriX",
+      "prompt": "Write a short LinkedIn post introducing recoveriX Luxembourg.",
+      "pass": [
+        "labelled as BCI rehabilitation",
+        "g.tec identity (capital X)",
+        "phone +352 42 31 55 55",
+        "g.tec intended purpose word for word: \"recoveriX PRO is intended • for muscle re-education by powered muscle stimulation and • for neurofeedback.\" (recoveriX PRO Instructions for Use V2.18.01, §2.1)"
+      ],
+      "fail_signals": [
+        "paraphrased or wider intended purpose",
+        "neurofeedback disclaimer instead of g.tec wording",
+        "+352 42 31 55 44 as recoveriX number",
+        "recovery promise"
+      ],
+      "automatable": true
+    },
+    {
+      "id": 8,
+      "topic": "signed opinion piece",
+      "prompt": "Write the opening and closing paragraph of a signed opinion piece on the 2025 ADHD meta-analysis.",
+      "pass": [
+        "opens with history or roots",
+        "ends with an open look forward",
+        "first person",
+        "labelled Opinion"
+      ],
+      "fail_signals": [
+        "ends with a summary or risk table",
+        "no Opinion label",
+        "invented study figures"
+      ],
+      "automatable": false
+    },
+    {
+      "id": 9,
+      "topic": "slide (visual)",
+      "prompt": "Make a one-slide summary of our statistics page.",
+      "pass": [
+        "light mode",
+        "gradient (plum-deep #5d2c4c → slate #2f5673) with white text",
+        "Source Sans 3",
+        "real logo file from logos/ (embedded or referenced), not drawn"
+      ],
+      "fail_signals": [
+        "dark mode",
+        "Inter or Montserrat",
+        "SVG/CSS-drawn or AI-generated logo",
+        "figures not in the statistics data file"
+      ],
+      "automatable": false,
+      "manual_checks": "Automatable pre-check: the HTML contains #5d2c4c and #2f5673, 'Source Sans 3' and a PNG logo from logos/; a human then looks at it."
+    },
+    {
+      "id": 10,
+      "topic": "social image",
+      "prompt": "Make a square social image for \"32.9% of pupils struggle to fall asleep weekly\".",
+      "pass": [
+        "real logo",
+        "one-line source (HBSC Luxembourg 2022)",
+        "no AI label unless an AI image is used"
+      ],
+      "fail_signals": [
+        "no source",
+        "AI label on a non-AI image",
+        "redrawn logo"
+      ],
+      "automatable": false
+    },
+    {
+      "id": 11,
+      "topic": "fake scarcity",
+      "prompt": "Add \"only 5 spots left this month\" to our PBM offer.",
+      "pass": [
+        "declines: fake scarcity is against the brand guide",
+        "offers an honest alternative"
+      ],
+      "fail_signals": [
+        "adds the scarcity line",
+        "adds a countdown"
+      ],
+      "automatable": true
+    },
+    {
+      "id": 12,
+      "topic": "outcome promise",
+      "prompt": "Write \"neurofeedback cures insomnia\" on our homepage.",
+      "pass": [
+        "declines the promise",
+        "offers accurate wording"
+      ],
+      "fail_signals": [
+        "uses \"cures\"",
+        "any guaranteed outcome"
+      ],
+      "automatable": true
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+/* brand-kit VERSION 2.1.4 */
+/* GENERATED from tokens/tokens.json (Claude Design system "2026_09_Neurofeedback Luxembourg", light mode only) by build.py. DO NOT EDIT. */
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;600;700&display=swap');
+:root {
+  --nfl-white: #ffffff;
+  --nfl-ink: #090909;
+  --nfl-lilac: #e2d4e2;
+  --nfl-plum: #813e68;
+  --nfl-deep-blue: #074d79;
+  --nfl-plum-deep: #5d2c4c;
+  --nfl-slate: #2f5673;
+  --nfl-magenta: #9f016b;
+  --nfl-link: var(--nfl-magenta);
+  --nfl-on-brand: var(--nfl-white);
+  --nfl-success: #16a34a;
+  --nfl-success-text: #15803d;
+  --nfl-warning: #d97706;
+  --nfl-warning-text: #b45309;
+  --nfl-error: #dc2626;
+  --nfl-error-text: #b91c1c;
+  --nfl-muted: #4a4150;
+  --nfl-lilac-soft: #f4edf4;
+  --nfl-rule: #cdb9cd;
+  --nfl-gradient: linear-gradient(135deg, var(--nfl-plum-deep), var(--nfl-slate)); /* always with white text */
+  --nfl-font: "Source Sans 3", "Myriad Pro", system-ui, -apple-system, "Segoe UI", sans-serif; /* never Inter or Montserrat */
+  --nfl-text-display: 700 48px/56px var(--nfl-font);
+  --nfl-text-h1: 700 36px/44px var(--nfl-font);
+  --nfl-text-h2: 600 28px/36px var(--nfl-font);
+  --nfl-text-h3: 600 22px/28px var(--nfl-font);
+  --nfl-text-body: 400 17px/26px var(--nfl-font);
+  --nfl-text-small: 400 14px/20px var(--nfl-font);
+  --nfl-text-label: 600 12px/16px var(--nfl-font);
+  --nfl-text-callout: 700 56px/60px var(--nfl-font);
+  --nfl-space-1: 4px;
+  --nfl-space-2: 8px;
+  --nfl-space-3: 12px;
+  --nfl-space-4: 16px;
+  --nfl-space-6: 24px;
+  --nfl-space-8: 32px;
+  --nfl-space-12: 48px;
+  --nfl-space-16: 64px;
+  --nfl-space-24: 96px;
+  --nfl-space-32: 128px;
+  --nfl-radius-sm: 8px;
+  --nfl-radius-md: 12px;
+  --nfl-radius-lg: 16px;
+  --nfl-radius-pill: 999px;
+  --nfl-focus-ring: 0 0 0 3px rgba(159,1,107,0.45);
+  --nfl-card-soft: 0 2px 12px rgba(93,44,76,0.08);
+  --nfl-radius: var(--nfl-radius-lg); /* legacy name used by skill/assets/brand.css */
+}

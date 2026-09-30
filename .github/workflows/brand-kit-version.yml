@@ -1,0 +1,14 @@
+# brand-kit VERSION 2.1.4
+# Fails if any brand-kit file's version header differs from brand-kit/VERSION,
+# or a generated file (tokens.css, brief, skill references, logos) is out of date.
+name: brand-kit version
+on:
+  push:
+    branches: [main]
+  pull_request:
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: python3 brand-kit/build.py --check
