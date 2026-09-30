@@ -1,4 +1,4 @@
-> **SUPERSEDED on 30 September 2026 by [Brand Guide v2.1.1](../brand-guide.md).** Kept for history only — do not use it for new content.
+> **SUPERSEDED on 30 September 2026 by Brand Guide v2.1.1, itself superseded by [Brand Guide v2.1.2](../brand-guide.md).** Kept for history only — do not use it for new content.
 
 # 04_BRAND — Brand Guide v2.1
 Status: SUPERSEDED 30 September 2026 by v2.1.1 (was APPROVED 30 September 2026) · Owner: François Altwies · Replaces Brand Guide v2.0 and Brand Lock v1.3
