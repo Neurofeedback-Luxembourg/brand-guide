@@ -38,12 +38,17 @@ def main():
             rows.append((f"Codex/agy · {repo}", m.group(1) if m else "NO PIN"))
         except Exception as e:
             rows.append((f"Codex/agy · {repo}", f"ERROR {e}"))
-    skill = Path(os.environ.get("HERMES_BRAND_SKILL", Path.home() / ".hermes/skills/nfl-brand/SKILL.md"))
-    try:
-        m = SKILL_V.search(skill.read_text())
-        rows.append((f"Hermes · {skill} -> {skill.resolve()}", m.group(1) if m else "NO VERSION"))
-    except OSError as e:
-        rows.append((f"Hermes · {skill}", f"ERROR {e}"))
+    home = Path(os.environ.get("HERMES_HOME", Path.home() / ".hermes"))
+    for name in ("nfl-brand", "nfl-brand-review"):
+        skill = home / "skills" / name / "SKILL.md"
+        try:
+            text = skill.read_text()
+            # The installed skill must be the loader (reads the live kit), never a copy of the rules.
+            got = want if "(loader" in text and "raw.githubusercontent.com/Neurofeedback-Luxembourg/brand-guide" in text \
+                else "COPY, not loader: " + (SKILL_V.search(text).group(1) if SKILL_V.search(text) else "old/unknown version")
+            rows.append((f"Hermes · {skill}", got))
+        except OSError as e:
+            rows.append((f"Hermes · {skill}", f"ERROR {e}"))
     print(f"brand-kit VERSION on main: {want}")
     drift = 0
     for who, got in rows:
