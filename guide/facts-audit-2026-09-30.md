@@ -1,16 +1,16 @@
 # Facts audit — the 18 Brand Hub files removed from the nfl-brand skill (30 Sept 2026)
 
 Every business fact found in the removed files, checked against Brand Guide v2.1.1 and the live website on 30 Sept 2026.
-**Kept in the pack** = already in the guide or the carried v1.3 file · **Added back** = still valid, now in `business-facts.md` · **Outdated** = replaced by v2.1.1 or by the live site · **Not confirmed** = listed in `business-facts.md` as "ask François", never stated.
+**Kept in the skill** = already in the guide or the carried v1.3 file · **Added back** = still valid, now in `business-facts.md` · **Outdated** = replaced by v2.1.1 or by the live site · **Not confirmed** = listed in `business-facts.md` as "ask François", never stated.
 
 | # | Fact (old files) | Status | Evidence / note |
 |---|---|---|---|
-| 1 | Legal entity Servicium S.A. | Kept in the pack | v2.1.1 §2 (with VAT and RCS) |
-| 2 | Operating since 2014 | Kept in the pack | v2.1.1 §7 |
-| 3 | 3,500+ scans · 20,000+ sessions · 19 electrodes · 120+ five-star reviews | Kept in the pack | v2.1.1 §7 ("brain maps", not "scans") |
-| 4 | Offer: qEEG/BrainMap, neurofeedback, SSP, recoveriX, Vielight Duo + Vagus sold and rented | Kept in the pack | v2.1.1 §4 |
-| 5 | Free, non-binding introductory phone call | Kept in the pack | v2.1.1 §3–4, live /our-rates/ |
-| 6 | Colours, fonts, contrast pairs, spacing, focus ring, taglines, imagery (04_VISUAL, 08_DESIGN) | Kept in the pack | carried-from-brand-lock-v1.3.md |
+| 1 | Legal entity Servicium S.A. | Kept in the skill | v2.1.1 §2 (with VAT and RCS) |
+| 2 | Operating since 2014 | Kept in the skill | v2.1.1 §7 |
+| 3 | 3,500+ scans · 20,000+ sessions · 19 electrodes · 120+ five-star reviews | Kept in the skill | v2.1.1 §7 ("brain maps", not "scans") |
+| 4 | Offer: qEEG/BrainMap, neurofeedback, SSP, recoveriX, Vielight Duo + Vagus sold and rented | Kept in the skill | v2.1.1 §4 |
+| 5 | Free, non-binding introductory phone call | Kept in the skill | v2.1.1 §3–4, live /our-rates/ |
+| 6 | Colours, fonts, contrast pairs, spacing, focus ring, taglines, imagery (04_VISUAL, 08_DESIGN) | Kept in the skill | carried-from-brand-lock-v1.3.md |
 | 7 | Address 21 Rue Glesener, 1631 Luxembourg; one location only | Added back | live /contact/ (+ "Silversquare Liberté") |
 | 8 | Never Mersch (private residence) | Added back | correction of record 2026-08-01 |
 | 9 | Opening hours Mon–Sat | Added back | identical on live /contact/ |

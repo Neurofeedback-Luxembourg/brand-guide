@@ -1,6 +1,6 @@
-# Carried over from Brand Lock v1.3 (still valid under Brand Guide v2.1)
+# Carried over from Brand Lock v1.3 (still valid under Brand Guide v2.1.1)
 
-Brand Guide v2.1 §11 keeps Brand Lock v1.3 §3 (voice), §5 (language) and §6–7 (visual identity, assets) unchanged. They are copied here so nobody has to open the superseded document. **Brand Guide v2.1 wins every conflict.** Parts of v1.3 §3 that v2.1 replaced are left out:
+Brand Guide v2.1.1 §11 keeps Brand Lock v1.3 §3 (voice), §5 (language) and §6–7 (visual identity, assets) unchanged. They are copied here so nobody has to open the superseded document. **Brand Guide v2.1.1 wins every conflict.** Parts of v1.3 §3 that v2.1 replaced are left out:
 
 - Banned-word list → replaced by v2.1 §6 (vocabulary = preferences) and fixed rule 2 (never promise an outcome: no "cure", "guaranteed", "100% safe", "no side effects", "miracle").
 - "One verified number per piece" → replaced by v2.1 §7 (as many numbers as the piece needs, each sourced).

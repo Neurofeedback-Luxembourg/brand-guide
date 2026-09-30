@@ -1,9 +1,3 @@
-# Generated packs — do not edit by hand
+# Generated skill — do not edit by hand
 
-Everything in `packs/` is generated from `guide/brand-guide.md` (+ `guide/carried-from-brand-lock-v1.3.md`, `guide/business-facts.md`). Brand Guide v2.1 §12: regenerate all three after every change to the guide.
-
-| Pack | Where it goes |
-|------|---------------|
-| `nfl-brand/` | Claude skill. Zip the folder and upload in claude.ai → Settings → Capabilities → Skills (replaces the Brand Lock v1.3 skill). Keeps the logo files and `assets/`. |
-| `gem-instructions.md` | Gemini Gem "NFL Brand Writer" — setup steps at the top of the file. |
-| `chatgpt/instructions.md` | ChatGPT Project / custom GPT — setup steps at the top of the file. |
+`packs/nfl-brand/` is the nfl-brand Claude skill, generated from `guide/brand-guide.md` (Brand Guide v2.1.1) + `guide/carried-from-brand-lock-v1.3.md` + `guide/business-facts.md`. Regenerate it after every change to the guide (v2.1.1 §12), then upload the zipped folder in claude.ai to replace the old skill. It keeps the logo files and `assets/`.

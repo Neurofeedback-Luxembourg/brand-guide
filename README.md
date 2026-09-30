@@ -4,7 +4,7 @@ Welcome to the official Neurofeedback Luxembourg Brand & Style Guide repository.
 
 ## Brand rules — start here
 
-**[Brand Guide v2.1.1](guide/brand-guide.md)** (approved 30 September 2026) is the only brand rulebook. Visual identity, voice table and language rules it keeps from the old Brand Lock are in [guide/carried-from-brand-lock-v1.3.md](guide/carried-from-brand-lock-v1.3.md). Brand Lock v1.3 is **SUPERSEDED** ([guide/superseded/brand-lock-v1.3.md](guide/superseded/brand-lock-v1.3.md)). The Claude skill, Gem and ChatGPT pack are generated from the guide — see [packs/](packs/README.md).
+**[Brand Guide v2.1.1](guide/brand-guide.md)** (approved 30 September 2026) is the only brand rulebook. Visual identity, voice table and language rules it keeps from the old Brand Lock are in [guide/carried-from-brand-lock-v1.3.md](guide/carried-from-brand-lock-v1.3.md). Brand Lock v1.3 is **SUPERSEDED** ([guide/superseded/brand-lock-v1.3.md](guide/superseded/brand-lock-v1.3.md)). The nfl-brand Claude skill is generated from the guide — see [packs/](packs/README.md). Brand Guide v2.1 is also SUPERSEDED ([guide/superseded/brand-guide-v2.1.md](guide/superseded/brand-guide-v2.1.md)).
 
 ## Purpose
 
