@@ -1,0 +1,489 @@
+{
+  "meta": {
+    "version": "1.0-preview",
+    "reviewed": "2026-09-30",
+    "nextReview": "2027-01-01",
+    "package": "page-package-v9 (frozen for phase 1)",
+    "bookUrl": "https://my.neurofeedback-luxembourg.com/v2/#book/category/8/service/32/count/1/"
+  },
+  "sections": [
+    {
+      "id": "luxembourg-work",
+      "title": {
+        "en": "Mental wellbeing of adults and at work in Luxembourg",
+        "fr": "Santé mentale des adultes et au travail au Luxembourg"
+      },
+      "key": {
+        "figure": "csl-burnout-2025",
+        "display": {
+          "en": "36%",
+          "fr": "36 %"
+        }
+      },
+      "takeaway": {
+        "en": "36% of employees in Luxembourg are at moderate or high risk of burnout, up from 16% in 2014.",
+        "fr": "36 % des salariés au Luxembourg présentent un risque moyen ou élevé de burnout, contre 16 % en 2014."
+      },
+      "chart": "lux-work-slope",
+      "figures": [
+        "csl-qow-index-2025",
+        "csl-burnout-2025",
+        "csl-sleep-2025",
+        "csl-depression-2025",
+        "gallup-stress-lu",
+        "eurostat-depression-lu-2019",
+        "oriscav-sleep-duration",
+        "ehes-short-sleep"
+      ],
+      "short": {
+        "en": "work",
+        "fr": "travail"
+      },
+      "accent": "plum",
+      "hook": {
+        "en": "One in three Luxembourg workers is running on empty",
+        "fr": "Un salarié sur trois au Luxembourg est à bout de souffle"
+      },
+      "guess": {
+        "figure": "csl-burnout-2025",
+        "question": {
+          "en": "What share of employees in Luxembourg is at moderate or high risk of burnout?",
+          "fr": "Quelle part des salariés au Luxembourg présente un risque moyen ou élevé de burnout ?"
+        }
+      },
+      "myth": {
+        "claim": {
+          "en": "People who work in Luxembourg are calmer than the European average.",
+          "fr": "Au Luxembourg, les salariés sont plus sereins que la moyenne européenne."
+        },
+        "answer": {
+          "en": "43% of employees in Luxembourg felt a lot of stress the previous day, against 39% across Europe.",
+          "fr": "43 % des salariés au Luxembourg ont ressenti beaucoup de stress la veille, contre 39 % en Europe."
+        },
+        "figure": "gallup-stress-lu"
+      }
+    }
+  ],
+  "charts": {
+    "lux-work-slope": {
+      "type": "slope",
+      "from": 2014,
+      "to": 2025,
+      "unit": "%",
+      "title": {
+        "en": "Share of employees in Luxembourg, 2014 and 2025",
+        "fr": "Part des salariés au Luxembourg, 2014 et 2025"
+      },
+      "series": [
+        {
+          "figure": "csl-burnout-2025",
+          "start": 16,
+          "end": 36,
+          "label": {
+            "en": "Moderate or high burnout risk",
+            "fr": "Risque moyen ou élevé de burnout"
+          },
+          "short": {
+            "en": "burnout risk",
+            "fr": "risque de burnout"
+          }
+        },
+        {
+          "figure": "csl-sleep-2025",
+          "start": 19,
+          "end": 30.2,
+          "label": {
+            "en": "Sleep problems often or (almost) always",
+            "fr": "Troubles du sommeil souvent ou (presque) toujours"
+          },
+          "short": {
+            "en": "sleep problems",
+            "fr": "troubles du sommeil"
+          }
+        }
+      ],
+      "note": {
+        "en": "Two survey years shown. CSL advises against using 2024 for burnout because the questionnaire order changed. High depression risk (15% in 2025) is not drawn: CSL states it more than doubled since 2014 but does not publish the 2014 value as a number.",
+        "fr": "Deux années d'enquête affichées. La CSL déconseille d'utiliser 2024 pour le burnout, l'ordre du questionnaire ayant changé. Le risque élevé de dépression (15 % en 2025) n'est pas tracé : la CSL indique qu'il a plus que doublé depuis 2014, sans publier la valeur de 2014."
+      },
+      "source": "csl-2025-summary",
+      "takeaway": {
+        "en": "Burnout risk more than doubled and sleep problems rose by more than half between 2014 and 2025.",
+        "fr": "Entre 2014 et 2025, le risque de burnout a plus que doublé et les troubles du sommeil ont augmenté de plus de moitié."
+      }
+    }
+  },
+  "sources": {
+    "csl-2025-summary": {
+      "title": "Quality of Work Index 2025 — résumé des résultats",
+      "publisher": "Chambre des salariés (CSL), University of Luxembourg, infas",
+      "date": "2026-02-03",
+      "url": "https://www.csl.lu/app/uploads/2026/02/resume_quality-of-work-index-2025_20260203.pdf",
+      "label": {
+        "en": "CSL summary of results (PDF, FR)",
+        "fr": "Résumé des résultats de la CSL (PDF)"
+      }
+    },
+    "csl-2025-infas": {
+      "title": "Rapport Quality of Work Luxembourg 2025",
+      "publisher": "infas for the Chambre des salariés",
+      "date": "2026-03",
+      "url": "https://www.csl.lu/app/uploads/2026/03/infas_csl_bericht_qow_2025_fr.pdf",
+      "label": {
+        "en": "infas full report (PDF, FR), Annex A.2",
+        "fr": "Rapport complet infas (PDF), annexe A.2"
+      }
+    },
+    "gallup-sogw-2026-lu": {
+      "title": "State of the Global Workplace: 2026 — Luxembourg country-level data",
+      "publisher": "Gallup",
+      "date": "2026-04",
+      "url": "https://www.gallup.com/workplace/706106/state-global-workplace-luxembourg-country-level-data.aspx",
+      "label": {
+        "en": "gallup.com — Luxembourg country data",
+        "fr": "gallup.com — données Luxembourg"
+      }
+    },
+    "eurostat-ehis-2019": {
+      "title": "hlth_ehis_cd1e — Persons reporting a chronic disease (EHIS wave 2019)",
+      "publisher": "Eurostat",
+      "date": "2024-01-03",
+      "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/hlth_ehis_cd1e?freq=A&unit=PC&hlth_pb=DPR_CHR&isced11=TOTAL&sex=T&age=TOTAL&geo=LU&time=2019",
+      "label": {
+        "en": "Eurostat data (direct query)",
+        "fr": "Données Eurostat (requête directe)"
+      }
+    },
+    "aguayo-2022": {
+      "title": "Objective and subjective sleep measures are associated with HbA1c and insulin sensitivity in the general population: findings from the ORISCAV-LUX-2 study",
+      "publisher": "Aguayo G.A. et al., Diabetes & Metabolism 48(1):101263, 2022",
+      "date": "2021-05",
+      "url": "https://www.sciencedirect.com/science/article/pii/S126236362100046X",
+      "label": {
+        "en": "sciencedirect.com",
+        "fr": "sciencedirect.com"
+      }
+    },
+    "ruiz-castell-2019": {
+      "title": "Sleep duration and multimorbidity in Luxembourg: results from the European Health Examination Survey in Luxembourg, 2013–2015",
+      "publisher": "Ruiz-Castell M. et al., BMJ Open 9(8):e026942",
+      "date": "2019-08",
+      "url": "https://bmjopen.bmj.com/content/9/8/e026942",
+      "label": {
+        "en": "bmjopen.bmj.com",
+        "fr": "bmjopen.bmj.com"
+      }
+    }
+  },
+  "figures": {
+    "csl-qow-index-2025": {
+      "claim": "fact",
+      "value": 53.4,
+      "unit": "index points (0–100)",
+      "population": {
+        "en": "Employees and civil servants aged 16–64 working in Luxembourg, ≥10 h/week, incl. cross-border workers (n = 3,171)",
+        "fr": "Salariés et fonctionnaires de 16 à 64 ans travaillant au Luxembourg, ≥ 10 h/semaine, frontaliers compris (n = 3 171)"
+      },
+      "period": "2025-05-20/2025-08-29",
+      "sources": [
+        "csl-2025-summary",
+        "csl-2025-infas"
+      ],
+      "page": "summary p. 2 and p. 4; infas report p. 115",
+      "text": {
+        "en": "Luxembourg's Quality of Work Index fell to 53.4 out of 100 in its 2025 survey wave, the lowest level since the index began in 2014. The survey used a representative sample of 3,171 employees and civil servants aged 16–64 working at least 10 hours a week, drawn from social-security records and including cross-border workers, interviewed between 20 May and 29 August 2025.",
+        "fr": "L'indice Quality of Work du Luxembourg est tombé à 53,4 sur 100 lors de l'enquête 2025, son niveau le plus bas depuis la création de l'indice en 2014. L'enquête repose sur un échantillon représentatif de 3 171 salariés et fonctionnaires de 16 à 64 ans travaillant au moins 10 heures par semaine, tiré des données de la sécurité sociale et incluant les frontaliers, interrogés entre le 20 mai et le 29 août 2025."
+      },
+      "display": {
+        "en": "53.4",
+        "fr": "53,4"
+      },
+      "visual": {
+        "type": "gauge",
+        "value": 53.4,
+        "max": 100
+      },
+      "headline": {
+        "en": "Luxembourg’s quality of work hit its lowest score since the index began in 2014.",
+        "fr": "La qualité du travail au Luxembourg est tombée à son niveau le plus bas depuis la création de l’indice en 2014."
+      },
+      "about": {
+        "en": "Quality of Work Index 2025: 53.4 out of 100. Representative sample of 3,171 employees and civil servants aged 16–64 working at least 10 hours a week, drawn from social-security records and including cross-border workers. Interviews from 20 May to 29 August 2025.",
+        "fr": "Quality of Work Index 2025 : 53,4 sur 100. Échantillon représentatif de 3 171 salariés et fonctionnaires de 16 à 64 ans travaillant au moins 10 heures par semaine, tiré des données de la sécurité sociale, frontaliers compris. Entretiens du 20 mai au 29 août 2025."
+      }
+    },
+    "csl-burnout-2025": {
+      "claim": "fact",
+      "value": 36,
+      "unit": "%",
+      "population": {
+        "en": "Employees in Luxembourg (QoW 2025, n = 3,171)",
+        "fr": "Salariés au Luxembourg (QoW 2025, n = 3 171)"
+      },
+      "period": "2025",
+      "sources": [
+        "csl-2025-summary"
+      ],
+      "page": "p. 10",
+      "text": {
+        "en": "36% of employees in Luxembourg were at moderate or high risk of burnout in 2025, up from 16% in 2014, according to the Quality of Work Index.",
+        "fr": "36 % des salariés au Luxembourg présentaient un risque moyen ou élevé de burnout en 2025, contre 16 % en 2014, selon le Quality of Work Index."
+      },
+      "display": {
+        "en": "36%",
+        "fr": "36 %"
+      },
+      "visual": {
+        "type": "people",
+        "value": 36
+      },
+      "headline": {
+        "en": "More than one employee in three is at moderate or high risk of burnout, up from 16% in 2014.",
+        "fr": "Plus d’un salarié sur trois présente un risque moyen ou élevé de burnout, contre 16 % en 2014."
+      },
+      "about": {
+        "en": "Quality of Work Index 2025 (n = 3,171). The 2024 value is lower because the order of the questionnaire changed that year; CSL advises against comparing with 2024.",
+        "fr": "Quality of Work Index 2025 (n = 3 171). La valeur de 2024 est plus basse parce que l’ordre du questionnaire a changé cette année-là ; la CSL déconseille la comparaison avec 2024."
+      }
+    },
+    "csl-sleep-2025": {
+      "claim": "fact",
+      "value": 30.2,
+      "unit": "%",
+      "population": {
+        "en": "Employees in Luxembourg (QoW 2025, n = 3,171)",
+        "fr": "Salariés au Luxembourg (QoW 2025, n = 3 171)"
+      },
+      "period": "2025",
+      "sources": [
+        "csl-2025-summary"
+      ],
+      "page": "p. 9",
+      "text": {
+        "en": "30.2% of employees in Luxembourg reported sleep problems often or (almost) all the time in 2025, up from 19% in 2014.",
+        "fr": "30,2 % des salariés au Luxembourg déclaraient des troubles du sommeil souvent ou (presque) tout le temps en 2025, contre 19 % en 2014."
+      },
+      "display": {
+        "en": "30.2%",
+        "fr": "30,2 %"
+      },
+      "visual": {
+        "type": "people",
+        "value": 30.2
+      },
+      "headline": {
+        "en": "Almost one employee in three sleeps badly often or almost all the time, up from 19% in 2014.",
+        "fr": "Près d’un salarié sur trois dort mal souvent ou presque tout le temps, contre 19 % en 2014."
+      },
+      "about": {
+        "en": "Quality of Work Index 2025 (n = 3,171): share answering “often” or “(almost) all the time” to sleep problems. Self-reported.",
+        "fr": "Quality of Work Index 2025 (n = 3 171) : part des réponses « souvent » ou « (presque) tout le temps » pour les troubles du sommeil. Auto-déclaration."
+      }
+    },
+    "csl-depression-2025": {
+      "claim": "fact",
+      "value": 15,
+      "unit": "%",
+      "population": {
+        "en": "Employees in Luxembourg (QoW 2025, n = 3,171)",
+        "fr": "Salariés au Luxembourg (QoW 2025, n = 3 171)"
+      },
+      "period": "2025",
+      "sources": [
+        "csl-2025-summary"
+      ],
+      "page": "p. 10",
+      "text": {
+        "en": "15% of employees in Luxembourg were at high risk of depression in 2025, more than double the 2014 level, while 25% showed reduced emotional wellbeing with a moderate risk.",
+        "fr": "15 % des salariés au Luxembourg présentaient un risque élevé de dépression en 2025, plus du double du niveau de 2014, et 25 % montraient un bien-être émotionnel dégradé avec un risque modéré."
+      },
+      "display": {
+        "en": "15%",
+        "fr": "15 %"
+      },
+      "visual": {
+        "type": "people",
+        "value": 15
+      },
+      "headline": {
+        "en": "15% of employees are at high risk of depression, more than double 2014, and another 25% show reduced emotional wellbeing.",
+        "fr": "15 % des salariés présentent un risque élevé de dépression, plus du double de 2014, et 25 % de plus un bien-être émotionnel dégradé."
+      },
+      "about": {
+        "en": "Quality of Work Index 2025 (n = 3,171). A screening risk score, not a diagnosis. CSL states that the 2025 level is more than double 2014 but does not publish the 2014 value as a number.",
+        "fr": "Quality of Work Index 2025 (n = 3 171). Un score de risque de dépistage, pas un diagnostic. La CSL indique que le niveau de 2025 est plus du double de celui de 2014, sans publier la valeur de 2014."
+      }
+    },
+    "gallup-stress-lu": {
+      "claim": "fact",
+      "value": 43,
+      "unit": "%",
+      "population": {
+        "en": "Employees in Luxembourg (Gallup World Poll)",
+        "fr": "Salariés au Luxembourg (Gallup World Poll)"
+      },
+      "period": "2023/2025 (three-year rolling average)",
+      "sources": [
+        "gallup-sogw-2026-lu"
+      ],
+      "page": "Daily stress table",
+      "text": {
+        "en": "43% of employees in Luxembourg said they experienced a lot of stress the previous day, above the European average of 39% and the global average of 40% (Gallup, three-year rolling average ending in 2025).",
+        "fr": "43 % des salariés au Luxembourg disaient avoir ressenti beaucoup de stress la veille, au-dessus de la moyenne européenne (39 %) et mondiale (40 %) (Gallup, moyenne mobile sur trois ans se terminant en 2025)."
+      },
+      "display": {
+        "en": "43%",
+        "fr": "43 %"
+      },
+      "visual": {
+        "type": "compare",
+        "items": [
+          {
+            "label": {
+              "en": "Luxembourg",
+              "fr": "Luxembourg"
+            },
+            "value": 43
+          },
+          {
+            "label": {
+              "en": "Europe",
+              "fr": "Europe"
+            },
+            "value": 39
+          },
+          {
+            "label": {
+              "en": "World",
+              "fr": "Monde"
+            },
+            "value": 40
+          }
+        ]
+      },
+      "headline": {
+        "en": "43% of employees in Luxembourg felt a lot of stress the previous day, more than in Europe (39%) and worldwide (40%).",
+        "fr": "43 % des salariés au Luxembourg ont ressenti beaucoup de stress la veille, davantage qu’en Europe (39 %) et dans le monde (40 %)."
+      },
+      "about": {
+        "en": "Gallup State of the Global Workplace 2026. The Luxembourg figure is a three-year rolling average ending in 2025 (Gallup World Poll).",
+        "fr": "Gallup, State of the Global Workplace 2026. Le chiffre du Luxembourg est une moyenne mobile sur trois ans se terminant en 2025 (Gallup World Poll)."
+      }
+    },
+    "eurostat-depression-lu-2019": {
+      "claim": "fact",
+      "value": 10.0,
+      "unit": "%",
+      "population": {
+        "en": "People aged 15 and over in Luxembourg",
+        "fr": "Personnes de 15 ans et plus au Luxembourg"
+      },
+      "period": "2019",
+      "sources": [
+        "eurostat-ehis-2019"
+      ],
+      "page": "dataset hlth_ehis_cd1e, DPR_CHR, LU, 2019",
+      "text": {
+        "en": "10.0% of people aged 15 and over in Luxembourg reported chronic depression in the 12 months before the 2019 European Health Interview Survey — a self-reported condition, not a clinician-confirmed diagnosis.",
+        "fr": "10,0 % des personnes de 15 ans et plus au Luxembourg ont déclaré une dépression chronique au cours des 12 mois précédant l'enquête européenne par interview sur la santé de 2019 : une déclaration personnelle, pas un diagnostic posé par un médecin."
+      },
+      "display": {
+        "en": "10.0%",
+        "fr": "10,0 %"
+      },
+      "visual": {
+        "type": "people",
+        "value": 10
+      },
+      "headline": {
+        "en": "One person in ten aged 15 and over in Luxembourg reported chronic depression.",
+        "fr": "Une personne sur dix de 15 ans et plus au Luxembourg a déclaré une dépression chronique."
+      },
+      "about": {
+        "en": "European Health Interview Survey, wave 2019: depression reported for the 12 months before the interview. Self-reported, not a diagnosis confirmed by a clinician.",
+        "fr": "Enquête européenne par interview sur la santé, vague 2019 : dépression déclarée pour les 12 mois précédant l’entretien. Auto-déclaration, pas un diagnostic confirmé par un médecin."
+      }
+    },
+    "oriscav-sleep-duration": {
+      "claim": "fact",
+      "design": {
+        "en": "Cross-sectional population survey, wrist accelerometer",
+        "fr": "Enquête transversale en population, accéléromètre au poignet"
+      },
+      "value": 7.7,
+      "unit": "hours per night (± 1.1)",
+      "population": {
+        "en": "Adults in Luxembourg, ORISCAV-LUX-2 (n = 1,028)",
+        "fr": "Adultes au Luxembourg, ORISCAV-LUX-2 (n = 1 028)"
+      },
+      "period": "2016-01/2018-01",
+      "sources": [
+        "aguayo-2022"
+      ],
+      "page": "Table 1",
+      "text": {
+        "en": "Adults in Luxembourg slept on average 7.7 hours a night (± 1.1 h), measured with a wrist accelerometer over six nights in 1,028 participants of the ORISCAV-LUX-2 health survey (January 2016 – January 2018) — a device estimate, not a sleep-lab measurement.",
+        "fr": "Les adultes au Luxembourg dormaient en moyenne 7,7 heures par nuit (± 1,1 h), mesurées par un accéléromètre au poignet sur six nuits chez 1 028 participants de l'enquête de santé ORISCAV-LUX-2 (janvier 2016 – janvier 2018) : une estimation par capteur, pas une mesure en laboratoire du sommeil."
+      },
+      "display": {
+        "en": "7.7 h",
+        "fr": "7,7 h"
+      },
+      "visual": {
+        "type": "hours",
+        "value": 7.7,
+        "max": 10
+      },
+      "headline": {
+        "en": "Measured on the wrist, adults in Luxembourg sleep 7.7 hours a night on average.",
+        "fr": "Mesurés au poignet, les adultes au Luxembourg dorment en moyenne 7,7 heures par nuit."
+      },
+      "about": {
+        "en": "ORISCAV-LUX-2 health survey, January 2016 – January 2018: wrist accelerometer worn for six nights by 1,028 participants (± 1.1 h). A device estimate, not a sleep-lab measurement.",
+        "fr": "Enquête de santé ORISCAV-LUX-2, janvier 2016 – janvier 2018 : accéléromètre au poignet porté six nuits par 1 028 participants (± 1,1 h). Une estimation par capteur, pas une mesure en laboratoire du sommeil."
+      }
+    },
+    "ehes-short-sleep": {
+      "claim": "fact",
+      "design": {
+        "en": "Cross-sectional health examination survey, self-report",
+        "fr": "Enquête transversale par examen de santé, auto-déclaration"
+      },
+      "value": 5.1,
+      "unit": "%",
+      "population": {
+        "en": "Residents of Luxembourg aged 25–64 (n = 1,170 with complete data)",
+        "fr": "Résidents du Luxembourg de 25 à 64 ans (n = 1 170 avec données complètes)"
+      },
+      "period": "2013/2015",
+      "sources": [
+        "ruiz-castell-2019"
+      ],
+      "page": "Table 1 (5.13%)",
+      "text": {
+        "en": "5.1% of Luxembourg residents aged 25–64 reported usually sleeping less than 6 hours a night in the 2013–2015 European Health Examination Survey (1,170 respondents with complete data).",
+        "fr": "5,1 % des résidents du Luxembourg âgés de 25 à 64 ans déclaraient dormir habituellement moins de 6 heures par nuit dans l'enquête européenne par examen de santé 2013–2015 (1 170 répondants avec des données complètes)."
+      },
+      "display": {
+        "en": "5.1%",
+        "fr": "5,1 %"
+      },
+      "visual": {
+        "type": "dots",
+        "value": 5.1
+      },
+      "headline": {
+        "en": "5.1% of adults aged 25–64 usually sleep less than six hours a night.",
+        "fr": "5,1 % des adultes de 25 à 64 ans dorment habituellement moins de six heures par nuit."
+      },
+      "about": {
+        "en": "European Health Examination Survey in Luxembourg, 2013–2015 (1,170 respondents with complete data): self-reported usual sleep duration. The paper reports 5.13%.",
+        "fr": "Enquête européenne par examen de santé au Luxembourg, 2013–2015 (1 170 répondants avec données complètes) : durée de sommeil habituelle déclarée. L’article indique 5,13 %."
+      }
+    }
+  },
+  "opinion": {
+    "en": "I’m François Altwies. Since 2014 my team has recorded more than 3,500 brain maps in Luxembourg — and yes, I make my living from neurofeedback. That is exactly why this page shows every result: the strong ones, the weak ones and the null ones, each with its study design and a link. Good evidence has nothing to hide, and weak evidence deserves to be seen. A meta-analysis tells you what happened on average in the studies it pooled. Your brain is not an average — that is why we measure first.",
+    "fr": "Je suis François Altwies. Depuis 2014, mon équipe a enregistré plus de 3 500 cartographies cérébrales au Luxembourg — et oui, je vis du neurofeedback. C’est justement pour cela que cette page montre tous les résultats : les solides, les faibles et les nuls, chacun avec le type d’étude et son lien. Les bonnes preuves n’ont rien à cacher, les faibles méritent d’être vues. Une méta-analyse dit ce qui s’est passé en moyenne dans les études qu’elle réunit. Votre cerveau n’est pas une moyenne — c’est pour cela que nous mesurons d’abord."
+  }
+}
