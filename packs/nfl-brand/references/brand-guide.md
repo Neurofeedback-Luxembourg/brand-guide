@@ -1,5 +1,5 @@
-# 04_BRAND — Brand Guide v2.1
-Status: APPROVED 30 September 2026 · Owner: François Altwies · Replaces Brand Guide v2.0 and Brand Lock v1.3
+# 04_BRAND — Brand Guide v2.1.1
+Status: APPROVED 30 September 2026 (v2.1.1: FR/DE labels, long-form storytelling rule) · Owner: François Altwies · Replaces Brand Guide v2.0 and Brand Lock v1.3
 Google Doc: https://docs.google.com/document/d/1QC7JEuOkEMqBWIELnfD7Y5rnfJ8YNjOndpDs5OhQ24E/edit
 
 ## 1. Three fixed rules (everything else is guidance)
@@ -7,7 +7,10 @@ Google Doc: https://docs.google.com/document/d/1QC7JEuOkEMqBWIELnfD7Y5rnfJ8YNjOn
 2. Never promise an outcome. No "cure", "guaranteed", "100% safe", "no side effects", "miracle" — for any brand, service or device.
 3. Protect clients. Never identify a client or repeat their health details in public without written consent.
 
-Legal labels that always apply: AI-generated images carry an AI label (EU AI Act Art. 50). Health content ends with: "Neurofeedback is brain training, not a medical treatment, and does not replace medical advice." (recoveriX content uses g.tec's intended-purpose wording instead.)
+Legal labels that always apply: AI-generated images carry an AI label (EU AI Act Art. 50). Health content ends with the label in the language of the piece (recoveriX content uses g.tec's intended-purpose wording instead):
+- EN: "Neurofeedback is brain training, not a medical treatment, and does not replace medical advice."
+- FR: « Le neurofeedback est un entraînement cérébral, pas un traitement médical, et ne remplace pas un avis médical. »
+- DE: „Neurofeedback ist ein Gehirntraining, keine medizinische Behandlung, und ersetzt keine ärztliche Beratung."
 
 ## 2. Brand architecture — one company, four brands, one signature
 - **Servicium S.A.** — legal entity (VAT LU13252504, RCS B24586); imprint and invoices.
@@ -53,6 +56,7 @@ No fake scarcity or countdowns anywhere.
 - **Signed opinion** (template: "Manufactured Doubt", https://francois352.github.io/): who I am and my conflict of interest · the charge · the evidence · an interactive element · strongest objections and my answer · what it means · sources with links. One per quarter.
 - **Interactive explainer**: one per quarter (what a brain map shows; how a reward threshold works; why effect sizes are not percentages).
 - **Content chain**: every new statistics entry feeds a LinkedIn post, a carousel, a 30-second video script, an FAQ answer, a newsletter item and a webinar line.
+- **Long-form storytelling** (signed long-form pieces only: opinion pieces, articles, pitches, executive summaries, presentations): open with history, roots or etymology; tell it past → present → future; metaphors over mechanics; end with an open, optimistic or suspenseful look forward — never a summary or a risk table. Does not apply to the statistics page, service pages or social posts.
 - **Founder voice**: "I" allowed in François-signed content. Client stories only with written consent, labelled "Our observation".
 
 ## 10. Review
@@ -62,4 +66,10 @@ François approves templates and opinion pieces. Content built from an approved 
 Unchanged from Brand Lock v1.3 §3, §5, §6–7: palette (#813e68, #074d79, #5d2c4c, #2f5673, #9f016b, #e2d4e2, #090909), gradient 135deg #5d2c4c → #2f5673 with white text, Source Sans 3 / Myriad Pro, light mode, logo files, imagery rules; English master, French default for local clients, German targeting Germany.
 
 ## 12. Governance
-This document is the source for the nfl-brand Claude skill, the Gem and the ChatGPT pack. Regenerate them after every change. Older versions are marked SUPERSEDED, not deleted.
+This document (with `carried-from-brand-lock-v1.3.md` and `business-facts.md`) is the source for the nfl-brand Claude skill, the Gem and the ChatGPT pack. Regenerate them after every change. Older versions are marked SUPERSEDED, not deleted.
+
+## Changelog
+| Version | Date | Change |
+|---|---|---|
+| v2.1.1 | 2026-09-30 | §1: approved FR and DE health labels. §9: long-form storytelling rule restored, scoped to signed long-form pieces. |
+| v2.1 | 2026-09-30 | Approved. Replaces Brand Guide v2.0 and Brand Lock v1.3. |

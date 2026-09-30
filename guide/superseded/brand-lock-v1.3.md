@@ -1,4 +1,4 @@
-> **SUPERSEDED on 30 September 2026 by [Brand Guide v2.1](../brand-guide-v2.1.md).** Kept for history only — do not use it for new content.
+> **SUPERSEDED on 30 September 2026 by [Brand Guide v2.1](../brand-guide.md).** Kept for history only — do not use it for new content.
 > Only §3 (voice table), §5 (language) and §6–7 (visual identity, assets) still apply, and only through [carried-from-brand-lock-v1.3.md](../carried-from-brand-lock-v1.3.md).
 
 
