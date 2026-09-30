@@ -1,3 +1,4 @@
+<!-- brand-kit VERSION 2.1.4 -->
 # 04_BRAND — Brand Guide v2.1.2
 Status: APPROVED 30 September 2026 · Owner: François Altwies · Replaces Brand Guide v2.1.1, v2.1, v2.0 and Brand Lock v1.3
 Google Doc (canonical): https://docs.google.com/document/d/1qGMKXauGHe_9CHvJ2JLYZNz4R92Uhn_68Hz7mImsq60/edit

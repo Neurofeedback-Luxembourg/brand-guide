@@ -1,11 +1,12 @@
 ---
 name: nfl-brand
-description: Neurofeedback Luxembourg brand rules (Brand Guide v2.1.2, approved 2026-09-30; skill v2.1.3). Use for ANY copy, design, social post, email, slide, image prompt, statistics entry or review reply for Neurofeedback Luxembourg, recoveriX Luxembourg or Brain-Curator/CURATOR — rules, claim labels, authority figures, tone by channel, colours and logo.
+description: Neurofeedback Luxembourg brand rules (Brand Guide v2.1.2, approved 2026-09-30; skill v2.1.4). Use for ANY copy, design, social post, email, slide, image prompt, statistics entry or review reply for Neurofeedback Luxembourg, recoveriX Luxembourg or Brain-Curator/CURATOR — rules, claim labels, authority figures, tone by channel, colours and logo.
 ---
+<!-- brand-kit VERSION 2.1.4 -->
 
-# Neurofeedback Luxembourg — brand (Brand Guide v2.1.2, skill v2.1.3)
+# Neurofeedback Luxembourg — brand (Brand Guide v2.1.2, skill v2.1.4)
 
-Generated from `Neurofeedback-Luxembourg/brand-guide` → `guide/brand-guide.md` (Google Doc 1QC7JEuOkEMqBWIELnfD7Y5rnfJ8YNjOndpDs5OhQ24E). Do not edit this skill by hand; change the guide and regenerate. Brand Lock v1.3 is SUPERSEDED.
+Generated from `Neurofeedback-Luxembourg/brand-guide` → `guide/brand-guide.md` (Google Doc 1qGMKXauGHe_9CHvJ2JLYZNz4R92Uhn_68Hz7mImsq60). The brand kit (`brand-kit/` in that repo: VERSION, tokens, logos, figures pointer, 12 tests) is the shared source for every agent. Do not edit this skill by hand; change the guide and regenerate. Brand Lock v1.3 is SUPERSEDED.
 
 1. Read `references/brand-guide.md` first — it wins every conflict. Voice table, language rules and visual identity come from `references/carried-from-brand-lock-v1.3.md`. Address, hours, prices, team and client pathway come only from `references/business-facts.md`; anything it lists as not confirmed (device prices…) must not be stated. Never mention discontinued services (HRV assessment, EEG-assisted meditation, NeuroCoaching, "Brain Performance Enhancement").
 2. Three fixed rules, never broken: never invent (every number carries its source) · never promise an outcome (no "cure", "guaranteed", "100% safe", "no side effects", "miracle") · protect clients (no identifying details or health details without written consent). Everything else is guidance.

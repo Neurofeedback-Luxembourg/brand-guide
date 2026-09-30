@@ -1,3 +1,4 @@
+<!-- brand-kit VERSION 2.1.4 -->
 # Business facts — Neurofeedback Luxembourg
 
 Checked 30 September 2026 against the live website (neurofeedback-luxembourg.com: /contact/, /our-rates/, /our-team/). Consistent with Brand Guide v2.1.2. Re-check every quarter (v2.1.2 §7) and after any price, hours or team change. Anything not listed here is not a confirmed fact: do not state it.

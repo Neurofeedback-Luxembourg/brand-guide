@@ -16,3 +16,6 @@ ehthumbs.db
 # OS-level temp
 *~
 *.tmp
+
+# brand-kit build output (skill zip, doc export)
+brand-kit/dist/
