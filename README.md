@@ -2,6 +2,10 @@
 
 Welcome to the official Neurofeedback Luxembourg Brand & Style Guide repository. This guide serves as a central, single-source-of-truth for all brand-related assets, guidelines, and specifications. It is designed to ensure consistency across all communications, whether created by internal teams, freelancers, or AI tools and agents.
 
+## Brand rules — start here
+
+**[Brand Guide v2.1.1](guide/brand-guide.md)** (approved 30 September 2026) is the only brand rulebook. Visual identity, voice table and language rules it keeps from the old Brand Lock are in [guide/carried-from-brand-lock-v1.3.md](guide/carried-from-brand-lock-v1.3.md). Brand Lock v1.3 is **SUPERSEDED** ([guide/superseded/brand-lock-v1.3.md](guide/superseded/brand-lock-v1.3.md)). The Claude skill, Gem and ChatGPT pack are generated from the guide — see [packs/](packs/README.md).
+
 ## Purpose
 
 The primary purpose of this repository is to provide clear, actionable guidance on how to represent the Neurofeedback Luxembourg brand. It includes:
