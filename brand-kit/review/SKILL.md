@@ -2,7 +2,7 @@
 name: nfl-brand-review
 description: Brand review gate for Neurofeedback Luxembourg, recoveriX Luxembourg and Brain-Curator. Use BEFORE anything is published (post, page, email, ad, image, slide) and for the monthly brand drift check. Needs the nfl-brand skill.
 ---
-<!-- brand-kit VERSION 2.1.4 -->
+<!-- brand-kit VERSION 2.1.5 -->
 # nfl-brand-review
 
 Source: GitHub Neurofeedback-Luxembourg/brand-guide → `brand-kit/` (read `brand-kit/VERSION` first). Rules: the `nfl-brand` skill. Checklist: `brand-kit/tests/tests.json`.

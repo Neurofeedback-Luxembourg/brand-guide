@@ -1,3 +1,5 @@
+> **SUPERSEDED on 2 October 2026 by [Brand Guide v2.1.3](../brand-guide.md).** Kept for history only — do not use it for new content.
+
 # Carried over from Brand Lock v1.3 (still valid under Brand Guide v2.1.2)
 
 Brand Guide v2.1.2 §11 keeps Brand Lock v1.3 §3 (voice), §5 (language) and §6–7 (visual identity, assets) unchanged. They are copied here so nobody has to open the superseded document. **Brand Guide v2.1.2 wins every conflict.** Parts of v1.3 §3 that v2.1 replaced are left out:

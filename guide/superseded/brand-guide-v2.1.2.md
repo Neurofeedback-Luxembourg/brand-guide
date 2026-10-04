@@ -1,10 +1,10 @@
-> **SUPERSEDED on 30 September 2026 by [Brand Guide v2.1.2](brand-guide-v2.1.2.md).** Kept for history only — do not use it for new content.
+> **SUPERSEDED on 2 October 2026 by [Brand Guide v2.1.3](../brand-guide.md).** Kept for history only — do not use it for new content.
 
-# 04_BRAND — Brand Guide v2.1.1
-Status: SUPERSEDED 30 September 2026 by v2.1.2 (was APPROVED 30 September 2026) · Owner: François Altwies · Replaces Brand Guide v2.1, v2.0 and Brand Lock v1.3
-Google Doc (canonical): https://docs.google.com/document/d/1UAIqFj8J_D0m4kSlooNTdf2k99UrFhRg-ZdE_tMDoj0/edit
+# 04_BRAND — Brand Guide v2.1.2
+Status: SUPERSEDED 2 October 2026 by v2.1.3 (was APPROVED 30 September 2026) · Owner: François Altwies · Replaces Brand Guide v2.1.1, v2.1, v2.0 and Brand Lock v1.3
+Google Doc (canonical): https://docs.google.com/document/d/1qGMKXauGHe_9CHvJ2JLYZNz4R92Uhn_68Hz7mImsq60/edit
 
-Changes from v2.1: French and German health disclaimer added (§1); storytelling rule for signed long-form pieces restored (§9); governance: Claude skills replace Gems and custom GPTs (§12).
+Changes from v2.1.1: authority figures updated (25,000+ sessions; 140+ Google reviews, 4.9/5 average — "five-star" removed) (§7); package contents clarified (SSP and tVNS included, PBM optional) and discontinued services listed (§4); public phone numbers added (§2).
 
 ## 1. Three fixed rules (everything else is guidance)
 1.1 Never invent. No made-up statistics, studies, testimonials, prices, timelines or credentials. Every number carries its source.
@@ -20,8 +20,8 @@ recoveriX content uses g.tec's intended-purpose wording instead.
 
 ## 2. Brand architecture — one company, four brands, one signature
 - **Servicium S.A.** — legal entity (VAT LU13252504, RCS B24586); imprint and invoices.
-- **Neurofeedback Luxembourg** — measurement-first brain training and home devices. Voice: calm, precise, empowering.
-- **recoveriX Luxembourg** — exclusive g.tec BCI rehabilitation franchise. Voice: clinical-rehabilitation; keep g.tec identity (capital X).
+- **Neurofeedback Luxembourg** — measurement-first brain training and home devices. Voice: calm, precise, empowering. Public phone: +352 42 31 55 44.
+- **recoveriX Luxembourg** — exclusive g.tec BCI rehabilitation franchise. Voice: clinical-rehabilitation; keep g.tec identity (capital X). Public phone: +352 42 31 55 55.
 - **Brain-Curator / CURATOR** — evidence curation and research (FNR Industrial Fellowship with the University of Luxembourg). Voice: scientific, open, sourced.
 
 Every brand links to the others. François Altwies is the shared signature across all four.
@@ -30,10 +30,13 @@ Every brand links to the others. François Altwies is the shared signature acros
 We measure, we train, we re-measure. Differentiators: 19-electrode brain map; self-regulation, not dependence; in our offices and at home; research-active.
 
 ## 4. Offer
-- Training: BrainMap (qEEG), neurofeedback, Safe and Sound Protocol, Standard package with PBM and tVNS sessions.
+- Training: BrainMap (qEEG), neurofeedback, Safe and Sound Protocol (SSP), transcutaneous vagus nerve stimulation (tVNS), Creyos cognitive testing.
+- Training packages include SSP and tVNS sessions. Photobiomodulation (PBM) is optional, not part of every package.
 - Devices for home, sold and rented (Vielight Duo, Vagus). State CE status only when confirmed per model.
 - recoveriX Luxembourg: presented openly on all our channels, clearly labelled as BCI rehabilitation.
 - Research: CURATOR and published literature, presented openly.
+- No longer offered — do not mention: HRV assessment, EEG-assisted meditation, NeuroCoaching, "Brain Performance Enhancement".
+- Prices: the website prices page is authoritative.
 
 ## 5. The claim ladder — label every statement
 - **Fact** — sourced number (source, sample, date).
@@ -46,7 +49,7 @@ Defaults: training, sessions, client, brain map, our offices (FR: entraînement,
 Scientific and clinical terms are fine wherever accurate, including condition names and study wording.
 
 ## 7. Numbers
-As many as the piece needs. Authority figures, always exactly: 3,500+ brain maps · 20,000+ sessions · since 2014 · 19 electrodes · 120+ five-star Google reviews. Check every public page for stale figures each quarter.
+As many as the piece needs. Authority figures, always exactly: 3,500+ brain maps · 25,000+ sessions · since 2014 · 19 electrodes · 140+ Google reviews, 4.9/5 average. Check every public page for stale figures each quarter.
 
 ## 8. Tone by channel
 - Op-eds, LinkedIn, Medium: sharp, first person, contrarian allowed; provocative headline, a question or a surprising local number as hook.

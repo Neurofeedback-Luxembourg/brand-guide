@@ -2,8 +2,12 @@
 
 From now on brand work runs in its own Claude Code session. The statistics session (nfl-web, data.neurofeedback-luxembourg.com) only reads brand rules from this repo and the Claude Design system; it never edits brand files.
 
-## Finished and merged (nothing half-done)
-- Brand Guide v2.1.2 canonical text (`guide/brand-guide.md`), v2.1.1 / v2.1 / Brand Lock v1.3 marked SUPERSEDED.
+## Current rulebook (4 October 2026)
+
+Brand Guide v2.1.3 (approved 2 October 2026) is the only rulebook (`guide/brand-guide.md`); §11 states visual identity, voice and languages. Kit version: 2.1.5. Brand Guide v2.1.2 and the carried-over Brand Lock reference are archived in `guide/superseded/`. This upgrade is local to `beast1/brand-guide-v2.1.3`; it has not been pushed or merged.
+
+## Historical work finished and merged (30 September 2026)
+- Brand Guide v2.1.2 canonical text at that time (now `guide/superseded/brand-guide-v2.1.2.md`), v2.1.1 / v2.1 / Brand Lock v1.3 marked SUPERSEDED.
 - nfl-brand skill v2.1.3 (PR #5): g.tec recoveriX intended purpose word for word (recoveriX PRO Instructions for Use V2.18.01, Rev. 2.6, 2021, §2.1–2.2, Drive https://drive.google.com/file/d/1CSYNFKFmbVPCCHnlEiY6vEZyOblXLAxW/view), statistics-only-from-data-file rule, calm service pages, no citation fragments; `references/statistics-figures.json` snapshot. Zip + rules .md on François's Desktop. Gems / custom GPT packs retired.
 - Live-site breach fixes on neurofeedback-luxembourg.com (13 pages, Elementor data, backups in ~/.local/backups/2026_09_30/wp-brand-fixes/): ADHD, home (x2), FAQ (80% success rate, 1,600 brains, "no risk"), insomnia, migraine, neuromodulation, autism, depression, neurofeedback training, values & history, PBM article (CE marking, contraindications).
 - Authority figures corrected on BrainMap/ADHD pages, 3 blog articles (all Linguise languages), both op-eds, brain-curator.org, GitHub organisation profile (`Neurofeedback-Luxembourg/.github`, "accredited" removed — no accreditation document found in Drive).

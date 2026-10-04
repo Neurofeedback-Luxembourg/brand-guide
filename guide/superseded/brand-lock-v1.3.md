@@ -1,5 +1,5 @@
 > **SUPERSEDED on 30 September 2026 by [Brand Guide v2.1](../brand-guide.md).** Kept for history only — do not use it for new content.
-> Only §3 (voice table), §5 (language) and §6–7 (visual identity, assets) still apply, and only through [carried-from-brand-lock-v1.3.md](../carried-from-brand-lock-v1.3.md).
+> No sections remain a live reference. [Brand Guide v2.1.3](../brand-guide.md) is the only rulebook; the [carried-over reference](carried-from-brand-lock-v1.3.md) is archived for history only.
 
 
 # **04\_BRAND — Brand Lock v1.3**

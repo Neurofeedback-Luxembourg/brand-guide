@@ -1,4 +1,4 @@
-# brand-kit VERSION 2.1.4
+# brand-kit VERSION 2.1.5
 """Monthly brand drift check: compare each agent's loaded/pinned brand version to brand-kit/VERSION.
 
   python3 brand-kit/tests/drift_check.py     prints one line per agent, exit 1 if any drift
@@ -56,7 +56,7 @@ def main():
         drift |= not ok
         print(f"{'OK   ' if ok else 'DRIFT'} {who}: {got}")
     print("MANUAL Claude (claude.ai skill + brand project) and ChatGPT: run test 1 in a new chat; "
-          f"expect Brand Guide v2.1.2 / kit {want}")
+          f"expect Brand Guide v2.1.3 / kit {want}")
     return 1 if drift else 0
 
 

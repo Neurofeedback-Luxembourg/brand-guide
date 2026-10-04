@@ -1,12 +1,12 @@
-<!-- brand-kit VERSION 2.1.4 -->
+<!-- brand-kit VERSION 2.1.5 -->
 # Business facts — Neurofeedback Luxembourg
 
-Checked 30 September 2026 against the live website (neurofeedback-luxembourg.com: /contact/, /our-rates/, /our-team/). Consistent with Brand Guide v2.1.2. Re-check every quarter (v2.1.2 §7) and after any price, hours or team change. Anything not listed here is not a confirmed fact: do not state it.
+Checked 30 September 2026 against the live website (neurofeedback-luxembourg.com: /contact/, /our-rates/, /our-team/). Consistent with Brand Guide v2.1.3. Re-check every quarter (v2.1.3 §7) and after any price, hours or team change. Anything not listed here is not a confirmed fact: do not state it.
 
 ## Identity
 - Legal entity: Servicium S.A. (VAT LU13252504, RCS B24586). Brands: Neurofeedback Luxembourg · recoveriX Luxembourg · Brain-Curator / CURATOR.
 - One professional address: Silversquare Liberté, 21 rue Glesener, L-1631 Luxembourg. Never Mersch (private residence, no business function).
-- Phone: Neurofeedback Luxembourg +352 42 31 55 44 · recoveriX Luxembourg +352 42 31 55 55 (Brand Guide v2.1.2 §2)
+- Phone: Neurofeedback Luxembourg +352 42 31 55 44 · recoveriX Luxembourg +352 42 31 55 55 (Brand Guide v2.1.3 §2)
 - Email: infos@neurofeedback-luxembourg.com · Booking: https://my.neurofeedback-luxembourg.com/ · Website: https://neurofeedback-luxembourg.com
 - Languages: English, French, German, Luxembourgish.
 - Social: YouTube https://www.youtube.com/@Neurofeedback_Luxembourg · Facebook https://www.facebook.com/NeurofeedbackinLuxembourg/
@@ -21,7 +21,7 @@ Building and offices accessible to people with reduced mobility. Public transpor
 ## Client pathway and prices (all incl. VAT, live /our-rates/ page — the prices page is authoritative; re-check it before quoting)
 1. Free, non-binding phone call (teleconsultation), in the client's language.
 2. Brain assessment / Basic BrainMap — €595: qEEG (19 electrodes) with cognitive tests and health questionnaires, written report. No obligation to continue.
-3. Training packages (need a BrainMap made by us within the last 6 months). Each includes a Safe and Sound Protocol licence and tVNS sessions (Brand Guide v2.1.2 §4), the sessions (1 hour each, weekly slots bookable up to 3 months ahead) and an end-of-programme assessment comparable to the first, with a written report.
+3. Training packages (need a BrainMap made by us within the last 6 months). Each includes a Safe and Sound Protocol licence and tVNS sessions (Brand Guide v2.1.3 §4), the sessions (1 hour each, weekly slots bookable up to 3 months ahead) and an end-of-programme assessment comparable to the first, with a written report.
    - 10 sessions — €4,685 (or 3 × €1,597 · 4 × €1,197 · 5 × €978)
    - 15 sessions — €6,825 (or 4 × €1,755 · 5 × €1,415 · 6 × €1,187)
    - Packages are valid for 9 months. Payment by credit card; bank transfer or monthly instalments on request by email.
@@ -33,7 +33,7 @@ Building and offices accessible to people with reduced mobility. Public transpor
 ## Team (live /our-team/ page)
 François Altwies — founder · Patrick Jost — managing director (since June 2022) and recoveriX therapist · Mélanie Schmaltz — psychologist specialised in neuropsychology · Jill Wissler — clinical assistant · Kayhan Latifzadeh — postdoctoral researcher (joint programme with the University of Luxembourg, FNR-funded) · Maria Camila Gallego — communications specialist.
 
-## Authority figures (v2.1.2 §7)
+## Authority figures (v2.1.3 §7)
 3,500+ brain maps · 25,000+ sessions · since 2014 · 19 electrodes · 140+ Google reviews, 4.9/5 average. Say "since 2014", never a computed "X years". Never "five-star". Withdrawn, never publish: 2,000 / 2,500 / 3,000 scans or brain analyses; 1,500 / 15,000 / 20,000 sessions; 120 reviews; "founded 2013".
 
 ## No longer offered — never mention
