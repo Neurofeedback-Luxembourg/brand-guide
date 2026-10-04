@@ -1,16 +1,16 @@
 {
-  "kit_version": "2.1.4",
-  "source": "nfl-brand-system-check-2026-09-30.html §4 (the 12 final tests), Brand Guide v2.1.2",
+  "kit_version": "2.1.5",
+  "source": "nfl-brand-system-check-2026-09-30.html §4 (the 12 final tests), Brand Guide v2.1.3",
   "tests": [
     {
       "id": 1,
       "topic": "version",
       "prompt": "Which version of the brand guide are you using?",
       "pass": [
-        "Names Brand Guide v2.1.2 (skill/kit 2.1.4 may also be named)"
+        "Names Brand Guide v2.1.3 (skill/kit 2.1.5 may also be named)"
       ],
       "fail_signals": [
-        "names Brand Lock v1.3, Brand Hub, v2.1.1, v2.1 or v2.0 as the version in use (mentioning them as superseded is fine)"
+        "names Brand Lock v1.3, Brand Hub, v2.1.2, v2.1.1, v2.1 or v2.0 as the version in use (mentioning them as superseded is fine)"
       ],
       "automatable": true
     },

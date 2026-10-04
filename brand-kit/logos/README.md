@@ -1,4 +1,4 @@
-<!-- brand-kit VERSION 2.1.4 -->
+<!-- brand-kit VERSION 2.1.5 -->
 # Logos — the real files, never redraw
 
 Identical to the "Logos" group of the Claude Design system "2026_09_Neurofeedback Luxembourg" (checked by SHA-256 on 2026-09-30). 4096 px masters: `assets/logos/primary/nfl-logo-gemini-*.png`. No SVG logo exists yet (a redraw needs François's approval).

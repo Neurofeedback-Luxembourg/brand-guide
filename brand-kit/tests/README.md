@@ -1,4 +1,4 @@
-<!-- brand-kit VERSION 2.1.4 -->
+<!-- brand-kit VERSION 2.1.5 -->
 # Brand tests — how any agent is scored
 
 `tests.json` holds the 12 brand tests (from the brand system check of 30 Sept 2026). Each has an `id`, the `prompt` to send, `pass` criteria (all must hold) and `fail_signals` (any one = fail).

@@ -10,7 +10,7 @@ Every business fact found in the removed files, checked against Brand Guide v2.1
 | 3 | 3,500+ scans · 20,000+ sessions · 19 electrodes · 120+ five-star reviews | Kept in the skill | v2.1.1 §7 ("brain maps", not "scans") |
 | 4 | Offer: qEEG/BrainMap, neurofeedback, SSP, recoveriX, Vielight Duo + Vagus sold and rented | Kept in the skill | v2.1.1 §4 |
 | 5 | Free, non-binding introductory phone call | Kept in the skill | v2.1.1 §3–4, live /our-rates/ |
-| 6 | Colours, fonts, contrast pairs, spacing, focus ring, taglines, imagery (04_VISUAL, 08_DESIGN) | Kept in the skill | carried-from-brand-lock-v1.3.md |
+| 6 | Colours, fonts, contrast pairs, spacing, focus ring, taglines, imagery (04_VISUAL, 08_DESIGN) | Historical: kept in the skill at audit time; superseded by v2.1.3 §11 | [Archived reference](superseded/carried-from-brand-lock-v1.3.md) |
 | 7 | Address 21 Rue Glesener, 1631 Luxembourg; one location only | Added back | live /contact/ (+ "Silversquare Liberté") |
 | 8 | Never Mersch (private residence) | Added back | correction of record 2026-08-01 |
 | 9 | Opening hours Mon–Sat | Added back | identical on live /contact/ |
