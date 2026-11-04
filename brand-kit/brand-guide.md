@@ -88,7 +88,7 @@ François approves templates and opinion pieces. Content built from an approved 
 11.2 Colour. Light mode only (white ground, ink #090909 text, lilac #e2d4e2 surfaces). Gradient: 135°, plum-deep #5d2c4c → slate #2f5673, always with white text, at most one gradient area per view. Magenta #9f016b for links, small accents, active states and the primary button — never paragraphs, never errors. Plum #813e68 and deep-blue #074d79 are logo colours, for headings or large accents only.
 11.3 Type. One family: Source Sans 3 on the web, Myriad Pro in print. Never Inter or Montserrat.
 11.4 Logo. The low-poly brain above "Neurofeedback-Luxembourg.com". Use the real logo files only — never redraw, trace or generate it.
-11.5 Imagery. Calm, competent, warm, light and bright: real equipment, real offices, daylight, diverse adults. Never hospitals, before/after, people in distress, children in medical settings, glowing generic brains or lightbulbs, or AI images of real team members or clients.
+11.5 Imagery. Calm, competent, warm, light and bright: real equipment, real offices, daylight, diverse adults. Before/after visuals are allowed for Neurofeedback Luxembourg and recoveriX. Never hospitals, people in distress, children in medical settings, glowing generic brains or lightbulbs, or AI images of real team members or clients.
 11.6 Accessibility. WCAG 2.2 AA: contrast on every pair, visible keyboard focus, never colour alone.
 11.7 Voice. Calm, precise, empowering (§2, §8). Tone samples: Hub docs "12_VOICE — Voice samples EN" and "12_VOICE — Voice samples FR" — tone only, never facts.
 11.8 Languages. English is the master; French is the default for local clients; German targets Germany.

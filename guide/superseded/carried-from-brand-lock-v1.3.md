@@ -84,7 +84,8 @@ Ink on white 19.91 · Ink on lilac 13.99 · Plum-deep on white 10.88 · Blue on 
 > * **Prefer real over AI:** real equipment, real cap setups, our real offices, natural daylight, natural skin tones.  
 > * **Preferred subjects:** a relaxed adult in a comfortable chair during a session; calm interiors; EEG waveforms and brain visuals in plum and slate (scientific-illustration style, not sci-fi); diverse adults of all ages.  
 > * **Motif:** the low-poly brain of the logo; optional EEG trace from irregular slow waves to an alpha spindle — never an ECG heartbeat, never presented as a real client's data.  
-> * **Never:** hospitals, surgery, cold fluorescent light; before/after comparisons; people in distress; children in medical settings; miracle or dramatic transformation visuals; stock “woman meditating on a beach”; glowing generic brains; lens-flare pseudo-science; lightbulb-idea clichés; other companies' logos or equipment (recoveriX materials excepted); AI-generated images of real team members or clients.  
+> * **Never:** hospitals, surgery, cold fluorescent light; people in distress; children in medical settings; miracle or dramatic transformation visuals; stock “woman meditating on a beach”; glowing generic brains; lens-flare pseudo-science; lightbulb-idea clichés; other companies' logos or equipment (recoveriX materials excepted); AI-generated images of real team members or clients.  
+> * Before/after visuals are allowed for Neurofeedback Luxembourg and recoveriX.
 > * AI-generated images carry an AI label (EU AI Act Art. 50).
 
 ### **Reject on sight**
