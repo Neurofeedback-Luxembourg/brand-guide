@@ -176,6 +176,20 @@ def write_llms(index, tokens, comps):
         f.write("\n".join(L))
 
 
+def readme_html():
+    """The brand book (README.md) as HTML, so agents that read only the web page get every rule."""
+    with open(os.path.join(HERE, "README.md"), encoding="utf-8") as f:
+        src = f.read()
+    src = re.sub(r"<!-- mirror note.*?-->\n>.*?\n\n", "", src, flags=re.S)
+    try:
+        import markdown
+        body = markdown.markdown(src, extensions=["tables"])
+    except ImportError:  # still complete without the library
+        body = "<pre>" + html.escape(src) + "</pre>"
+    body = re.sub(r"<h1>.*?</h1>", "", body, count=1, flags=re.S)
+    return re.sub(r"<(/?)h([23])>", lambda m: f"<{m.group(1)}h{int(m.group(2)) + 1}>", body)
+
+
 def write_index_html(index, tokens, comps):
     esc = html.escape
     colors = tokens["color"]["tokens"]
@@ -220,7 +234,7 @@ def write_index_html(index, tokens, comps):
 <link rel="stylesheet" href="tokens.css">
 <link rel="alternate" type="text/plain" href="../llms.txt" title="Index for agents">
 <style>
-body{{margin:0;background:var(--white);color:var(--ink);font-family:var(--font-sans);font-size:17px;line-height:26px}}
+body{{margin:0;background:var(--white);color:var(--ink);font-family:var(--font-sans);font-size:17px;line-height:26px;overflow-wrap:anywhere}}
 header{{background:var(--gradient);color:var(--on-brand);padding:var(--space-12) var(--space-4)}}
 header .in,main{{max-width:1080px;margin:0 auto}}
 header h1{{margin:0 0 var(--space-2);font-size:36px;line-height:44px}}
@@ -244,6 +258,10 @@ ul{{list-style:none;padding:0;margin:0}}
 .tiles a.dark{{background:var(--gradient)}}
 .tiles img{{width:100%;height:100%;object-fit:contain;display:block}}
 .cp li{{padding:var(--space-2) 0;border-bottom:1px solid var(--lilac)}}
+.book{{max-width:76ch}} .book h3{{color:var(--plum-deep);font-size:22px;line-height:28px;margin:var(--space-8) 0 var(--space-2)}}
+.book h4{{font-size:17px;margin:var(--space-6) 0 var(--space-2)}} .book ul{{list-style:disc;padding-left:1.2em}} .book li{{margin:var(--space-1) 0}}
+.book table{{border-collapse:collapse;font-size:14px;line-height:20px;display:block;overflow-x:auto}} .book td,.book th{{border-bottom:1px solid var(--lilac);padding:var(--space-2);text-align:left;vertical-align:top}}
+.book code{{font-size:14px;background:var(--lilac-soft);padding:0 4px;border-radius:4px}}
 footer{{font-size:14px;color:var(--muted);max-width:1080px;margin:0 auto;padding:0 var(--space-4) var(--space-12)}}
 </style>
 </head>
@@ -263,10 +281,15 @@ footer{{font-size:14px;color:var(--muted);max-width:1080px;margin:0 auto;padding
 </ol>
 Folder on GitHub: <a href="{TREE}">{TREE}</a></div>
 
+<section class="book"><h2>Brand book</h2>
+<p><small>Same text as <a href="README.md">README.md</a>. Main slogan, SEO keywords, voice, logo, imagery and official accounts are here.</small></p>
+{readme_html()}</section>
+
 <h2>Colours</h2>
 <ul class="sw">{sw}</ul>
 
 <h2>Type — Source Sans 3</h2>
+<p><small>Sample lines only. The main slogan is in the brand book above.</small></p>
 <ul class="ty">{ty}</ul>
 {groups_html}
 <section><h2>Components</h2>

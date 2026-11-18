@@ -12,7 +12,7 @@ The complete design system (brand book, main slogan, SEO keywords, colours, type
 
 * **Web page** (any agent that can open a web page, and people): https://neurofeedback-luxembourg.github.io/brand-guide/design-system/
 * **Plain-text index** (every file with a direct link): https://raw.githubusercontent.com/Neurofeedback-Luxembourg/brand-guide/main/llms.txt
-* **Everything in one zip** (for agents that only accept uploads): see the latest [release](https://github.com/Neurofeedback-Luxembourg/brand-guide/releases)
+* **Agents that only accept uploads** (custom GPTs, Gems, projects): upload `design-system/README.md`, `design-system/tokens.json` and the asset files you need from `design-system/assets/`.
 
 It mirrors the Claude Design System (https://claude.ai/artifact/EowsRsZbAGGmPPDbLET8k3), which only Claude can read.
 
