@@ -7,6 +7,8 @@ Measurement-first brain training in Luxembourg since 2014. "We measure, we train
 
 **Brand kit:** this system matches brand-kit **2.1.5** (GitHub `Neurofeedback-Luxembourg/brand-guide` › `brand-kit/`, https://github.com/Neurofeedback-Luxembourg/brand-guide/tree/main/brand-kit), which other agents load: same 17 colours, spacing, radii, shadows, font stack and the five PNG logo files (checked 2026-10-21; the kit's token names carry an `nfl-` prefix). The vector logo (SVG, approved 2026-10-21) is newer than kit 2.1.5. Asked which brand kit version applies, answer 2.1.5. When the kit's `VERSION` changes, re-check and update this line.
 
+**For other agents (ChatGPT, Gemini, Codex, Mistral…):** this page is readable by Claude only. A full public copy — this README, tokens, components and every logo, photo and recoveriX image — is on GitHub: web page https://neurofeedback-luxembourg.github.io/brand-guide/design-system/ · index of every file with direct links https://raw.githubusercontent.com/Neurofeedback-Luxembourg/brand-guide/main/llms.txt · folder `Neurofeedback-Luxembourg/brand-guide` › `design-system/`. After any change here, refresh that copy (copy `project/` into `design-system/`, run `python3 design-system/build_mirror.py`).
+
 ## Content fundamentals
 
 - **Three fixed rules:** never invent (every number carries its source) · never promise an outcome · protect clients (no identification or health details without written consent). Everything else is guidance.
