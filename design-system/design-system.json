@@ -1,0 +1,236 @@
+{
+  "v": 3,
+  "layout": "files",
+  "createdOnFiles": {
+    "v": 1,
+    "at": "2026-09-25T00:08:36Z"
+  },
+  "title": "Neurofeedback Luxembourg",
+  "namespace": "NFL",
+  "libraries": [],
+  "sections": {},
+  "groups": [
+    "Logos",
+    "Photos",
+    "recoveriX"
+  ],
+  "assetGroups": {
+    "Logos": {
+      "name": "Logos",
+      "tile": "l",
+      "order": [
+        "logo-transparent.png",
+        "logo-white.png",
+        "logo-reversed-transparent.png",
+        "logo-icon-transparent.png",
+        "logo-site.png",
+        "logo-transparent.svg",
+        "logo-icon-transparent.svg"
+      ],
+      "files": {
+        "logo-transparent.png": {
+          "name": "logo-transparent.png",
+          "blob": "1f80019291c8af8f71e7cb15477d2d13",
+          "size": 463660,
+          "type": "image/png"
+        },
+        "logo-white.png": {
+          "name": "logo-white.png",
+          "blob": "bd37e85aa8830f0a6823ca7f1f7b52e0",
+          "size": 341907,
+          "type": "image/png"
+        },
+        "logo-reversed-transparent.png": {
+          "name": "logo-reversed-transparent.png",
+          "blob": "7df786b86f283babebcfd239661cb3a3",
+          "size": 345886,
+          "type": "image/png"
+        },
+        "logo-icon-transparent.png": {
+          "name": "logo-icon-transparent.png",
+          "blob": "a73e8f8e0ca1d140e0c1e39537aa44bb",
+          "size": 148211,
+          "type": "image/png"
+        },
+        "logo-site.png": {
+          "name": "logo-site.png",
+          "blob": "3151ffeab9e2df74cf59fcef3c77fe3a",
+          "size": 4640,
+          "type": "image/png"
+        },
+        "logo-transparent.svg": {
+          "name": "logo-transparent.svg",
+          "blob": "550ec44c595b748e4cf18d0075a75bb2",
+          "size": 220666,
+          "type": "image/svg+xml"
+        },
+        "logo-icon-transparent.svg": {
+          "name": "logo-icon-transparent.svg",
+          "blob": "bd321dbf73c25b67055f10ecf30363fe",
+          "size": 44702,
+          "type": "image/svg+xml"
+        }
+      }
+    },
+    "Photos": {
+      "name": "Photos",
+      "tile": "m",
+      "order": [
+        "offices-building-silversquare-liberte.jpg",
+        "offices-entrance-doorbell.jpg",
+        "session-eeg-cap-fitting.jpg",
+        "session-neurofeedback-training.jpg",
+        "session-eeg-cap-closeup.jpg",
+        "pbm-red-light-helmet.jpg",
+        "device-white-helmet.jpg",
+        "team-discussion-eeg-head-model.jpg",
+        "team-review-brain-map-screen.jpg",
+        "portrait-team-01.jpg",
+        "portrait-team-02.jpg",
+        "portrait-team-03.jpg"
+      ],
+      "files": {
+        "offices-building-silversquare-liberte.jpg": {
+          "name": "offices-building-silversquare-liberte.jpg",
+          "blob": "ceeae83c708209e69c8260a815392031",
+          "size": 728651,
+          "type": "image/jpeg"
+        },
+        "offices-entrance-doorbell.jpg": {
+          "name": "offices-entrance-doorbell.jpg",
+          "blob": "d17b22ab76d6cdc456615412110099d3",
+          "size": 415107,
+          "type": "image/jpeg"
+        },
+        "session-eeg-cap-fitting.jpg": {
+          "name": "session-eeg-cap-fitting.jpg",
+          "blob": "903dfe2658891c72a927112fd4c5fb1a",
+          "size": 497163,
+          "type": "image/jpeg"
+        },
+        "session-neurofeedback-training.jpg": {
+          "name": "session-neurofeedback-training.jpg",
+          "blob": "695ab2c5da625414ad9ecc560512c4a5",
+          "size": 464403,
+          "type": "image/jpeg"
+        },
+        "session-eeg-cap-closeup.jpg": {
+          "name": "session-eeg-cap-closeup.jpg",
+          "blob": "f35ca9e856bcef1c6f759afe24178ccc",
+          "size": 388737,
+          "type": "image/jpeg"
+        },
+        "pbm-red-light-helmet.jpg": {
+          "name": "pbm-red-light-helmet.jpg",
+          "blob": "34e5ed78d361343433ec8740af9ce754",
+          "size": 360703,
+          "type": "image/jpeg"
+        },
+        "device-white-helmet.jpg": {
+          "name": "device-white-helmet.jpg",
+          "blob": "e3bbbbe6f3c0da1ed6a8e2e1fd9a6e2a",
+          "size": 236603,
+          "type": "image/jpeg"
+        },
+        "team-discussion-eeg-head-model.jpg": {
+          "name": "team-discussion-eeg-head-model.jpg",
+          "blob": "5bf192883b2345ea8728b4a5aff65e79",
+          "size": 566572,
+          "type": "image/jpeg"
+        },
+        "team-review-brain-map-screen.jpg": {
+          "name": "team-review-brain-map-screen.jpg",
+          "blob": "aba70a8d275e884dbbf1cb76bad6da16",
+          "size": 676389,
+          "type": "image/jpeg"
+        },
+        "portrait-team-01.jpg": {
+          "name": "portrait-team-01.jpg",
+          "blob": "8981e1e4fb58be17787d8c21b36f1664",
+          "size": 527275,
+          "type": "image/jpeg"
+        },
+        "portrait-team-02.jpg": {
+          "name": "portrait-team-02.jpg",
+          "blob": "7296bfe952e21bcf8b591e964d32eb2d",
+          "size": 565320,
+          "type": "image/jpeg"
+        },
+        "portrait-team-03.jpg": {
+          "name": "portrait-team-03.jpg",
+          "blob": "309a28a41b00ad216021fb05ac624a46",
+          "size": 321858,
+          "type": "image/jpeg"
+        }
+      }
+    },
+    "recoveriX": {
+      "name": "recoveriX",
+      "tile": "m",
+      "order": [
+        "recoverix-visual-square-stroke-ms.jpg",
+        "recoverix-seven-training-approaches.png",
+        "recoverix-seven-training-approaches-wide-small.jpg",
+        "recoverix-system-setup.jpg",
+        "recoverix-session-therapist-fes-vr.jpg",
+        "recoverix-session-hand-fes.jpg",
+        "recoverix-eeg-cap-fes-electrodes-standing.jpg"
+      ],
+      "files": {
+        "recoverix-visual-square-stroke-ms.jpg": {
+          "name": "recoverix-visual-square-stroke-ms.jpg",
+          "blob": "4a53c484f711e1c24c99924f35defd57",
+          "size": 36186,
+          "type": "image/jpeg"
+        },
+        "recoverix-seven-training-approaches.png": {
+          "name": "recoverix-seven-training-approaches.png",
+          "blob": "c93d0d39a31d798bf66e954e0460afb0",
+          "size": 253398,
+          "type": "image/png"
+        },
+        "recoverix-seven-training-approaches-wide-small.jpg": {
+          "name": "recoverix-seven-training-approaches-wide-small.jpg",
+          "blob": "470ef57351523744d5908eedeee05221",
+          "size": 29729,
+          "type": "image/jpeg"
+        },
+        "recoverix-system-setup.jpg": {
+          "name": "recoverix-system-setup.jpg",
+          "blob": "746ff4e09b7cce71e3f05f7e22d89f7d",
+          "size": 648711,
+          "type": "image/jpeg"
+        },
+        "recoverix-session-therapist-fes-vr.jpg": {
+          "name": "recoverix-session-therapist-fes-vr.jpg",
+          "blob": "f8d840e5acac692fd2ce2c14e97d2bf4",
+          "size": 51664,
+          "type": "image/jpeg"
+        },
+        "recoverix-session-hand-fes.jpg": {
+          "name": "recoverix-session-hand-fes.jpg",
+          "blob": "183c93dd13f931c1384fdc4d265f9b54",
+          "size": 306948,
+          "type": "image/jpeg"
+        },
+        "recoverix-eeg-cap-fes-electrodes-standing.jpg": {
+          "name": "recoverix-eeg-cap-fes-electrodes-standing.jpg",
+          "blob": "40881c5246ed0e2f2094eecca0f7c36c",
+          "size": 184869,
+          "type": "image/jpeg"
+        }
+      }
+    }
+  },
+  "blobs": {},
+  "docs": {
+    "readme": "project/README.md",
+    "sections": []
+  },
+  "lastChange": {
+    "by": "François Altwies",
+    "via": "Claude (chat)",
+    "at": "2026-10-24T16:52:35Z",
+    "note": "New asset group recoveriX: 7 recoveriX images (square visual, seven-approaches infographic, system setup, session photos) with naming, labelling and wording rules; README › Imagery points to it."
+  }
+}

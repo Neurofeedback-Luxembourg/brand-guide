@@ -1,0 +1,81 @@
+# Neurofeedback Luxembourg — brand and design system
+
+> Public, plain-file copy of the Claude Design System "Neurofeedback Luxembourg" (brand rules, colours, type, logos, photos, recoveriX images, components). Readable by any agent or person without a login. Brand Guide v2.1.3 (approved 2026-10-02) is the rulebook; the brand kit (brand-kit/) carries the same rules as agent instructions.
+
+Read in this order: design-system/README.md (the brand book: voice, slogan, SEO keywords, colours, logo rules, imagery, official accounts), then tokens.json or tokens.css, then the README of the asset group you need. Use the asset files exactly as they are; never redraw the logo.
+
+- Web page (images visible): https://neurofeedback-luxembourg.github.io/brand-guide/design-system/
+- Folder on GitHub: https://github.com/Neurofeedback-Luxembourg/brand-guide/tree/main/design-system
+- Original (Claude only): https://claude.ai/artifact/EowsRsZbAGGmPPDbLET8k3
+
+## Rules
+
+- [Brand book — design system README](https://raw.githubusercontent.com/Neurofeedback-Luxembourg/brand-guide/main/design-system/README.md): content rules, main slogan, SEO keywords, visual foundations, logo, imagery, offer, official accounts, components
+- [Brand kit — rules for every agent](https://raw.githubusercontent.com/Neurofeedback-Luxembourg/brand-guide/main/brand-kit/AGENTS.md)
+- [Brand Guide v2.1.3 (full rulebook)](https://raw.githubusercontent.com/Neurofeedback-Luxembourg/brand-guide/main/brand-kit/brand-guide.md)
+- [Business facts](https://raw.githubusercontent.com/Neurofeedback-Luxembourg/brand-guide/main/brand-kit/skill/references/business-facts.md)
+
+## Tokens
+
+- [tokens.json](https://raw.githubusercontent.com/Neurofeedback-Luxembourg/brand-guide/main/design-system/tokens.json): 19 colours, type scale, spacing, radii, shadows, each with a usage note
+- [tokens.css](https://raw.githubusercontent.com/Neurofeedback-Luxembourg/brand-guide/main/design-system/tokens.css): the same as CSS variables (--plum-deep, --space-4, ...)
+- [design-system.json](https://raw.githubusercontent.com/Neurofeedback-Luxembourg/brand-guide/main/design-system/design-system.json): index of asset groups and files
+
+## Assets — Logos
+
+- [README — rules and what each file shows](https://raw.githubusercontent.com/Neurofeedback-Luxembourg/brand-guide/main/design-system/assets/Logos/README.md)
+- [logo-transparent.png](https://raw.githubusercontent.com/Neurofeedback-Luxembourg/brand-guide/main/design-system/assets/Logos/logo-transparent.png) (image/png, 453 KB)
+- [logo-white.png](https://raw.githubusercontent.com/Neurofeedback-Luxembourg/brand-guide/main/design-system/assets/Logos/logo-white.png) (image/png, 334 KB)
+- [logo-reversed-transparent.png](https://raw.githubusercontent.com/Neurofeedback-Luxembourg/brand-guide/main/design-system/assets/Logos/logo-reversed-transparent.png) (image/png, 338 KB)
+- [logo-icon-transparent.png](https://raw.githubusercontent.com/Neurofeedback-Luxembourg/brand-guide/main/design-system/assets/Logos/logo-icon-transparent.png) (image/png, 145 KB)
+- [logo-site.png](https://raw.githubusercontent.com/Neurofeedback-Luxembourg/brand-guide/main/design-system/assets/Logos/logo-site.png) (image/png, 5 KB)
+- [logo-transparent.svg](https://raw.githubusercontent.com/Neurofeedback-Luxembourg/brand-guide/main/design-system/assets/Logos/logo-transparent.svg) (image/svg+xml, 215 KB)
+- [logo-icon-transparent.svg](https://raw.githubusercontent.com/Neurofeedback-Luxembourg/brand-guide/main/design-system/assets/Logos/logo-icon-transparent.svg) (image/svg+xml, 44 KB)
+
+## Assets — Photos
+
+- [README — rules and what each file shows](https://raw.githubusercontent.com/Neurofeedback-Luxembourg/brand-guide/main/design-system/assets/Photos/README.md)
+- [offices-building-silversquare-liberte.jpg](https://raw.githubusercontent.com/Neurofeedback-Luxembourg/brand-guide/main/design-system/assets/Photos/offices-building-silversquare-liberte.jpg) (image/jpeg, 712 KB)
+- [offices-entrance-doorbell.jpg](https://raw.githubusercontent.com/Neurofeedback-Luxembourg/brand-guide/main/design-system/assets/Photos/offices-entrance-doorbell.jpg) (image/jpeg, 405 KB)
+- [session-eeg-cap-fitting.jpg](https://raw.githubusercontent.com/Neurofeedback-Luxembourg/brand-guide/main/design-system/assets/Photos/session-eeg-cap-fitting.jpg) (image/jpeg, 486 KB)
+- [session-neurofeedback-training.jpg](https://raw.githubusercontent.com/Neurofeedback-Luxembourg/brand-guide/main/design-system/assets/Photos/session-neurofeedback-training.jpg) (image/jpeg, 454 KB)
+- [session-eeg-cap-closeup.jpg](https://raw.githubusercontent.com/Neurofeedback-Luxembourg/brand-guide/main/design-system/assets/Photos/session-eeg-cap-closeup.jpg) (image/jpeg, 380 KB)
+- [pbm-red-light-helmet.jpg](https://raw.githubusercontent.com/Neurofeedback-Luxembourg/brand-guide/main/design-system/assets/Photos/pbm-red-light-helmet.jpg) (image/jpeg, 352 KB)
+- [device-white-helmet.jpg](https://raw.githubusercontent.com/Neurofeedback-Luxembourg/brand-guide/main/design-system/assets/Photos/device-white-helmet.jpg) (image/jpeg, 231 KB)
+- [team-discussion-eeg-head-model.jpg](https://raw.githubusercontent.com/Neurofeedback-Luxembourg/brand-guide/main/design-system/assets/Photos/team-discussion-eeg-head-model.jpg) (image/jpeg, 553 KB)
+- [team-review-brain-map-screen.jpg](https://raw.githubusercontent.com/Neurofeedback-Luxembourg/brand-guide/main/design-system/assets/Photos/team-review-brain-map-screen.jpg) (image/jpeg, 661 KB)
+- [portrait-team-01.jpg](https://raw.githubusercontent.com/Neurofeedback-Luxembourg/brand-guide/main/design-system/assets/Photos/portrait-team-01.jpg) (image/jpeg, 515 KB)
+- [portrait-team-02.jpg](https://raw.githubusercontent.com/Neurofeedback-Luxembourg/brand-guide/main/design-system/assets/Photos/portrait-team-02.jpg) (image/jpeg, 552 KB)
+- [portrait-team-03.jpg](https://raw.githubusercontent.com/Neurofeedback-Luxembourg/brand-guide/main/design-system/assets/Photos/portrait-team-03.jpg) (image/jpeg, 314 KB)
+
+## Assets — recoveriX
+
+- [README — rules and what each file shows](https://raw.githubusercontent.com/Neurofeedback-Luxembourg/brand-guide/main/design-system/assets/recoveriX/README.md)
+- [recoverix-visual-square-stroke-ms.jpg](https://raw.githubusercontent.com/Neurofeedback-Luxembourg/brand-guide/main/design-system/assets/recoveriX/recoverix-visual-square-stroke-ms.jpg) (image/jpeg, 35 KB)
+- [recoverix-seven-training-approaches.png](https://raw.githubusercontent.com/Neurofeedback-Luxembourg/brand-guide/main/design-system/assets/recoveriX/recoverix-seven-training-approaches.png) (image/png, 247 KB)
+- [recoverix-seven-training-approaches-wide-small.jpg](https://raw.githubusercontent.com/Neurofeedback-Luxembourg/brand-guide/main/design-system/assets/recoveriX/recoverix-seven-training-approaches-wide-small.jpg) (image/jpeg, 29 KB)
+- [recoverix-system-setup.jpg](https://raw.githubusercontent.com/Neurofeedback-Luxembourg/brand-guide/main/design-system/assets/recoveriX/recoverix-system-setup.jpg) (image/jpeg, 634 KB)
+- [recoverix-session-therapist-fes-vr.jpg](https://raw.githubusercontent.com/Neurofeedback-Luxembourg/brand-guide/main/design-system/assets/recoveriX/recoverix-session-therapist-fes-vr.jpg) (image/jpeg, 50 KB)
+- [recoverix-session-hand-fes.jpg](https://raw.githubusercontent.com/Neurofeedback-Luxembourg/brand-guide/main/design-system/assets/recoveriX/recoverix-session-hand-fes.jpg) (image/jpeg, 300 KB)
+- [recoverix-eeg-cap-fes-electrodes-standing.jpg](https://raw.githubusercontent.com/Neurofeedback-Luxembourg/brand-guide/main/design-system/assets/recoveriX/recoverix-eeg-cap-fes-electrodes-standing.jpg) (image/jpeg, 181 KB)
+
+## Components (HTML/CSS, prefix nfl-)
+
+- [bundle.css](https://raw.githubusercontent.com/Neurofeedback-Luxembourg/brand-guide/main/design-system/components/bundle.css): all component classes; load tokens.css first
+- AboutFigure: The expandable "About this figure" / « À propos de ce chiffre » detail: caveats, population, period and the full source with page reference. [guidelines](https://raw.githubusercontent.com/Neurofeedback-Luxembourg/brand-guide/main/design-system/components/AboutFigure/README.md) · [preview](https://raw.githubusercontent.com/Neurofeedback-Luxembourg/brand-guide/main/design-system/components/AboutFigure/preview.html)
+- Button: A single clear action; the primary one is usually the free, non-binding phone call. [guidelines](https://raw.githubusercontent.com/Neurofeedback-Luxembourg/brand-guide/main/design-system/components/Button/README.md) · [preview](https://raw.githubusercontent.com/Neurofeedback-Luxembourg/brand-guide/main/design-system/components/Button/preview.html)
+- Card: A lilac surface that groups one idea: a service, a step, a question. [guidelines](https://raw.githubusercontent.com/Neurofeedback-Luxembourg/brand-guide/main/design-system/components/Card/README.md) · [preview](https://raw.githubusercontent.com/Neurofeedback-Luxembourg/brand-guide/main/design-system/components/Card/preview.html)
+- ChartFrame: A diagram with everything that travels with it: title, share menu, the SVG chart, a one-line takeaway with its source, "About this figure" for method notes, "Show as table" with the data, and the brand line. [guidelines](https://raw.githubusercontent.com/Neurofeedback-Luxembourg/brand-guide/main/design-system/components/ChartFrame/README.md) · [preview](https://raw.githubusercontent.com/Neurofeedback-Luxembourg/brand-guide/main/design-system/components/ChartFrame/preview.html)
+- ClaimTag: The claim-ladder label (Brand Guide §5) on every figure, study and opinion: Fact · Research finding · Our observation · Opinion. [guidelines](https://raw.githubusercontent.com/Neurofeedback-Luxembourg/brand-guide/main/design-system/components/ClaimTag/README.md) · [preview](https://raw.githubusercontent.com/Neurofeedback-Luxembourg/brand-guide/main/design-system/components/ClaimTag/preview.html)
+- Cover:  · [preview](https://raw.githubusercontent.com/Neurofeedback-Luxembourg/brand-guide/main/design-system/components/Cover/preview.html)
+- DataCallout: A verified number with one short label. [guidelines](https://raw.githubusercontent.com/Neurofeedback-Luxembourg/brand-guide/main/design-system/components/DataCallout/README.md) · [preview](https://raw.githubusercontent.com/Neurofeedback-Luxembourg/brand-guide/main/design-system/components/DataCallout/preview.html)
+- Disclaimer: Required at the end of every health piece (web, social, slides, print). [guidelines](https://raw.githubusercontent.com/Neurofeedback-Luxembourg/brand-guide/main/design-system/components/Disclaimer/README.md) · [preview](https://raw.githubusercontent.com/Neurofeedback-Luxembourg/brand-guide/main/design-system/components/Disclaimer/preview.html)
+- FigureCard: One sourced number as a card: claim tag, share menu, the big number, one confident sentence, a mini-visual, the "About this figure" detail and the brand line. [guidelines](https://raw.githubusercontent.com/Neurofeedback-Luxembourg/brand-guide/main/design-system/components/FigureCard/README.md) · [preview](https://raw.githubusercontent.com/Neurofeedback-Luxembourg/brand-guide/main/design-system/components/FigureCard/preview.html)
+- GuessSlider: "Guess first" on a section's headline figure: the visitor drags a slider (0–100 %), then the real number animates in with the gap to the guess ("You guessed 40%. The real figure is 36%, 4 points lower."). [guidelines](https://raw.githubusercontent.com/Neurofeedback-Luxembourg/brand-guide/main/design-system/components/GuessSlider/README.md) · [preview](https://raw.githubusercontent.com/Neurofeedback-Luxembourg/brand-guide/main/design-system/components/GuessSlider/preview.html)
+- Hero: The page or slide opener: the gradient with white text and the logo badge top-right. [guidelines](https://raw.githubusercontent.com/Neurofeedback-Luxembourg/brand-guide/main/design-system/components/Hero/README.md) · [preview](https://raw.githubusercontent.com/Neurofeedback-Luxembourg/brand-guide/main/design-system/components/Hero/preview.html)
+- LanguageSwitch: Globe icon with "EN · FR"; the current language is highlighted, the other is a link to the same page in that language. [guidelines](https://raw.githubusercontent.com/Neurofeedback-Luxembourg/brand-guide/main/design-system/components/LanguageSwitch/README.md) · [preview](https://raw.githubusercontent.com/Neurofeedback-Luxembourg/brand-guide/main/design-system/components/LanguageSwitch/preview.html)
+- MythStrip: "Myth or number?" / « Idée reçue ou chiffre ? »: a short strip between sections that states a common belief and reveals the answer from a figure already on the page. [guidelines](https://raw.githubusercontent.com/Neurofeedback-Luxembourg/brand-guide/main/design-system/components/MythStrip/README.md) · [preview](https://raw.githubusercontent.com/Neurofeedback-Luxembourg/brand-guide/main/design-system/components/MythStrip/preview.html)
+- ShareMenu: Plain share links on every card and chart: LinkedIn, Facebook, X, WhatsApp, email and "Copy link". No third-party share scripts. [guidelines](https://raw.githubusercontent.com/Neurofeedback-Luxembourg/brand-guide/main/design-system/components/ShareMenu/README.md) · [preview](https://raw.githubusercontent.com/Neurofeedback-Luxembourg/brand-guide/main/design-system/components/ShareMenu/preview.html)
+- SiteFooter: Footer of the statistics site: imprint, address, phone, privacy link and the health disclaimer. [guidelines](https://raw.githubusercontent.com/Neurofeedback-Luxembourg/brand-guide/main/design-system/components/SiteFooter/README.md) · [preview](https://raw.githubusercontent.com/Neurofeedback-Luxembourg/brand-guide/main/design-system/components/SiteFooter/preview.html)
+- SiteHeader: The lean branded header of the statistics site (data.neurofeedback-luxembourg.com): logo, four links to the main site, the free-call button and the language switch. [guidelines](https://raw.githubusercontent.com/Neurofeedback-Luxembourg/brand-guide/main/design-system/components/SiteHeader/README.md) · [preview](https://raw.githubusercontent.com/Neurofeedback-Luxembourg/brand-guide/main/design-system/components/SiteHeader/preview.html)
+- StatusNote: A short state message (form sent, slot full, error). [guidelines](https://raw.githubusercontent.com/Neurofeedback-Luxembourg/brand-guide/main/design-system/components/StatusNote/README.md) · [preview](https://raw.githubusercontent.com/Neurofeedback-Luxembourg/brand-guide/main/design-system/components/StatusNote/preview.html)

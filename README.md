@@ -6,6 +6,16 @@ Welcome to the official Neurofeedback Luxembourg Brand & Style Guide repository.
 
 **[Brand Guide v2.1.3](guide/brand-guide.md)** (approved 2 October 2026) is the only brand rulebook. Visual identity, voice and languages are stated in §11. The former carried-over Brand Lock reference is archived in `guide/superseded/` and is no longer a live reference. Brand Lock v1.3 is **SUPERSEDED** ([guide/superseded/brand-lock-v1.3.md](guide/superseded/brand-lock-v1.3.md)). **Agents (Claude, ChatGPT, Codex, Hermes, Antigravity): read [brand-kit/AGENTS.md](brand-kit/AGENTS.md)** — one shared kit (VERSION, generated guide, nfl-brand skill, design tokens, real logos, figures pointer, 12 brand tests, ChatGPT operator brief). The nfl-brand Claude skill is `brand-kit/skill/`. Brand Guides v2.1, v2.1.1 and v2.1.2 are also SUPERSEDED ([guide/superseded/](guide/superseded/)).
 
+## Design system — one link for every agent
+
+The complete design system (brand book, main slogan, SEO keywords, colours, type, logos, photos, recoveriX images, components, official accounts) is in **[`design-system/`](design-system/README.md)** as plain files. Give agents one of these links:
+
+* **Web page** (any agent that can open a web page, and people): https://neurofeedback-luxembourg.github.io/brand-guide/design-system/
+* **Plain-text index** (every file with a direct link): https://raw.githubusercontent.com/Neurofeedback-Luxembourg/brand-guide/main/llms.txt
+* **Everything in one zip** (for agents that only accept uploads): see the latest [release](https://github.com/Neurofeedback-Luxembourg/brand-guide/releases)
+
+It mirrors the Claude Design System (https://claude.ai/artifact/EowsRsZbAGGmPPDbLET8k3), which only Claude can read.
+
 ## Purpose
 
 The primary purpose of this repository is to provide clear, actionable guidance on how to represent the Neurofeedback Luxembourg brand. It includes:
