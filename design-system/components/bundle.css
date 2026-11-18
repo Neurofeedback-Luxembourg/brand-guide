@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;600;700&display=swap');
+/* Neurofeedback Luxembourg — components. Tokens come from tokens.css. */
+.nfl { font-family: var(--font-sans); color: var(--ink); background: var(--white); }
+.nfl a:where(:not(.nfl-btn)) { color: var(--link); }
+.nfl-btn { display:inline-flex; align-items:center; gap:var(--space-2); font:600 17px/24px var(--font-sans); padding:var(--space-3) var(--space-6); border-radius:var(--radius-md); border:2px solid transparent; cursor:pointer; text-decoration:none; }
+.nfl-btn:focus-visible { outline:none; box-shadow:var(--focus-ring); }
+.nfl-btn--primary { background:var(--magenta); color:var(--on-brand); }
+.nfl-btn--secondary { background:var(--white); color:var(--plum-deep); border-color:var(--plum-deep); }
+.nfl-btn--on-gradient { background:var(--white); color:var(--plum-deep); }
+.nfl-hero { position:relative; background:linear-gradient(135deg, var(--plum-deep), var(--slate)); color:var(--on-brand); padding:var(--space-12); border-radius:var(--radius-lg); }
+.nfl-hero h1 { margin:0 0 var(--space-3); font-size:36px; line-height:44px; font-weight:700; max-width:22ch; text-wrap:balance; }
+.nfl-hero p { margin:0; font-size:17px; line-height:26px; max-width:48ch; }
+.nfl-badge { position:absolute; top:var(--space-6); right:var(--space-6); background:var(--white); border-radius:var(--radius-sm); padding:var(--space-2) var(--space-3); }
+.nfl-badge img { display:block; height:64px; width:auto; }
+.nfl-card { background:var(--lilac); border-radius:var(--radius-lg); padding:var(--space-6); }
+.nfl-card h3 { margin:0 0 var(--space-2); font-size:22px; line-height:28px; font-weight:600; color:var(--plum-deep); }
+.nfl-card p { margin:0; font-size:17px; line-height:26px; }
+.nfl-eyebrow { font-size:12px; line-height:16px; font-weight:600; letter-spacing:.06em; text-transform:uppercase; color:var(--slate); }
+.nfl-callout { display:flex; flex-direction:column; gap:var(--space-1); }
+.nfl-callout__value { font-size:56px; line-height:60px; font-weight:700; color:var(--plum-deep); font-variant-numeric:tabular-nums; }
+.nfl-callout__label { font-size:17px; line-height:26px; color:var(--ink); }
+.nfl-disclaimer { font-size:14px; line-height:20px; color:var(--ink); border-top:1px solid var(--lilac); padding-top:var(--space-3); }
+.nfl-status { display:inline-flex; align-items:center; gap:var(--space-2); font-size:14px; line-height:20px; font-weight:600; padding:var(--space-1) var(--space-3); border-radius:var(--radius-pill); border:1.5px solid currentColor; background:var(--white); }
+.nfl-status--success { color:var(--success-text); } .nfl-status--warning { color:var(--warning-text); } .nfl-status--error { color:var(--error-text); }
+@media (prefers-reduced-motion: reduce) { .nfl * { transition:none !important; animation:none !important; } }
+
+/* ===== Statistics-site components (added 2026-09-30, source: Neurofeedback-Luxembourg/nfl-web src/styles/site.css) ===== */
+.nfl { --gradient: linear-gradient(135deg, var(--plum-deep), var(--slate)); --accent: var(--plum-deep); --off: #cdb9cd; --off-strong: #9b879d; }
+.nfl .sr-only, .sr-only { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+.nfl-mini { display: block; width: 100%; max-width: 240px; height: auto; }
+/* ---------- Buttons (design system Button) ---------- */
+.nfl-btn { display: inline-flex; align-items: center; justify-content: center; gap: var(--space-2); font: 600 17px/24px var(--font-sans); padding: var(--space-3) var(--space-6); border-radius: var(--radius-md); border: 2px solid transparent; cursor: pointer; text-decoration: none; }
+.nfl-btn--primary { background: var(--magenta); color: var(--on-brand); }
+.nfl-btn--secondary { background: var(--white); color: var(--plum-deep); border-color: var(--plum-deep); }
+.nfl-btn--on-gradient { background: var(--white); color: var(--plum-deep) !important; }
+.nfl-btn--quiet { background: none; border: 0; padding: var(--space-3) var(--space-2); color: var(--link); text-decoration: underline; }
+
+/* ---------- Site header ---------- */
+.nfl-site-header, .nfl-site-footer { background: var(--gradient); color: var(--on-brand); }
+.nfl-site-header a, .nfl-site-footer a { color: var(--on-brand); }
+.nfl-site-header :focus-visible, .nfl-site-footer :focus-visible { box-shadow: 0 0 0 3px var(--white); }
+.nfl-site-header__inner { max-width: 1240px; margin: 0 auto; padding: var(--space-3) var(--space-4); display: flex; align-items: center; gap: var(--space-3) var(--space-6); }
+.nfl-site-header__brand img { display: block; height: 56px; width: auto; }
+.nfl-site-header__nav { display: flex; align-items: center; gap: var(--space-2) var(--space-6); margin-left: auto; }
+.nfl-site-header__nav ul { list-style: none; display: flex; flex-wrap: wrap; gap: var(--space-1) var(--space-6); margin: 0; padding: 0; }
+.nfl-site-header__nav ul a { display: inline-block; padding: var(--space-2) 0; text-decoration: none; font-weight: 600; }
+.nfl-site-header__nav ul a:hover { text-decoration: underline; text-underline-offset: 6px; }
+.nfl-site-header__menu { display: none; align-items: center; gap: var(--space-2); min-height: 44px; padding: var(--space-2) var(--space-4); border-radius: var(--radius-md); border: 2px solid rgba(255,255,255,.7); background: transparent; color: var(--on-brand); font: 600 17px/24px var(--font-sans); cursor: pointer; }
+
+/* Language switch: globe + EN · FR, current language highlighted */
+.nfl-lang-switch { display: flex; align-items: center; gap: var(--space-1); padding-left: var(--space-4); border-left: 1px solid rgba(255,255,255,.4); font-weight: 600; white-space: nowrap; }
+.nfl-lang-switch a, .nfl-lang-switch__current { display: inline-flex; align-items: center; justify-content: center; min-width: 36px; min-height: 36px; border-radius: var(--radius-sm); text-decoration: none; }
+.nfl-lang-switch__current { background: var(--white); color: var(--plum-deep); }
+.nfl-lang-switch a:hover { background: rgba(255,255,255,.18); }
+.nfl-lang-switch__sep { opacity: .75; }
+
+@media (max-width: 1080px) {
+  .nfl-site-header__inner { flex-wrap: wrap; }
+  .nfl-site-header__brand { order: 1; }
+  .nfl-lang-switch { order: 2; margin-left: auto; border-left: 0; padding-left: 0; }
+  .nfl-js .nfl-site-header__menu { display: inline-flex; order: 3; }
+  .nfl-site-header__nav { order: 4; width: 100%; margin: 0; flex-direction: column; align-items: stretch; gap: var(--space-3); padding: var(--space-2) 0 var(--space-3); }
+  .nfl-site-header__nav ul { flex-direction: column; gap: 0; }
+  .nfl-site-header__nav ul a { display: block; padding: var(--space-3) 0; border-bottom: 1px solid rgba(255,255,255,.25); }
+  .nfl-js .nfl-site-header__nav:not(.is-open) { display: none; }
+  .nfl-site-header__brand img { height: 40px; }
+  .nfl-site-header__menu { padding: var(--space-2); min-width: 44px; justify-content: center; }
+  .nfl-site-header__menu span { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); }
+  .nfl-site-header__inner { gap: var(--space-3); }
+  .nfl-lang-switch a, .nfl-lang-switch__current { min-width: 32px; min-height: 32px; }
+}
+
+/* ---------- Site footer ---------- */
+.nfl-site-footer { margin-top: var(--space-24); font-size: 15px; line-height: 22px; }
+.nfl-site-footer__inner { max-width: 1240px; margin: 0 auto; padding: var(--space-12) var(--space-4) var(--space-8); display: grid; gap: var(--space-6); grid-template-columns: 1fr; }
+@media (min-width: 800px) { .nfl-site-footer__inner { grid-template-columns: 2fr 1fr 1fr; } }
+.nfl-site-footer p { margin: 0 0 var(--space-2); }
+.nfl-site-footer__disclaimer { grid-column: 1 / -1; border-top: 1px solid rgba(255,255,255,.4); padding-top: var(--space-4); }
+.nfl-site-footer button { background: none; border: 0; padding: 0; color: var(--on-brand); font: inherit; text-decoration: underline; cursor: pointer; }
+
+/* ---------- Claim tag ---------- */
+.nfl-claim-tag { display: inline-flex; align-items: center; gap: var(--space-1); font-size: 12px; line-height: 16px; font-weight: 600; letter-spacing: .06em; text-transform: uppercase; padding: var(--space-1) var(--space-2); border-radius: var(--radius-sm); background: var(--white); border: 1.5px solid currentColor; }
+.nfl-claim-tag::before { content: ''; width: 8px; height: 8px; border-radius: 2px; background: currentColor; }
+.nfl-claim-tag--fact { color: var(--slate); }
+.nfl-claim-tag--research { color: var(--deep-blue); }
+.nfl-claim-tag--research::before { border-radius: 50%; }
+.nfl-claim-tag--observation { color: #7a5200; }
+.nfl-claim-tag--observation::before { transform: rotate(45deg); }
+.nfl-claim-tag--opinion { color: var(--magenta); }
+.nfl-claim-tag--opinion::before { width: 0; height: 0; border-radius: 0; background: none; border-left: 5px solid transparent; border-right: 5px solid transparent; border-bottom: 9px solid currentColor; }
+
+/* ---------- Figure card ---------- */
+.nfl-figure-card { position: relative; background: var(--lilac); border-radius: var(--radius-lg); padding: var(--space-6); margin: 0; display: flex; flex-direction: column; gap: var(--space-3); }
+.nfl-figure-card--lead { background: var(--white); border: 2px solid var(--accent); align-self: start; }
+.nfl-figure-card__top { display: flex; align-items: center; justify-content: space-between; gap: var(--space-3); }
+.nfl-figure-card__value { margin: 0; font-size: 56px; line-height: 60px; font-weight: 700; color: var(--accent); font-variant-numeric: tabular-nums; letter-spacing: -0.01em; }
+.nfl-figure-card--lead .nfl-figure-card__value { font-size: clamp(64px, 44px + 5vw, 96px); line-height: 1; }
+.nfl-figure-card__headline { font-size: 19px; line-height: 26px; font-weight: 600; margin: 0; }
+.nfl-figure-card--lead .nfl-figure-card__headline { font-size: 22px; line-height: 28px; }
+.nfl-figure-card__visual { margin: var(--space-1) 0; }
+.nfl-mini { display: block; width: 100%; max-width: 240px; height: auto; }
+.nfl-mini.compare { max-width: 300px; }
+
+/* Brand line: logo mark + source + short URL, on every card and chart frame */
+.nfl-brand-line { display: flex; align-items: center; flex-wrap: wrap; gap: var(--space-2); margin: auto 0 0; padding-top: var(--space-3); border-top: 1px solid var(--rule); font-size: 14px; line-height: 20px; color: var(--muted); }
+.nfl-brand-line a { color: var(--muted); }
+.nfl-brand-line img { width: 20px; height: 20px; }
+
+/* ---------- About this figure (disclosure) ---------- */
+.nfl-about { font-size: 15px; line-height: 22px; }
+.nfl-about > summary { display: inline-flex; align-items: center; gap: var(--space-2); min-height: 32px; font-weight: 600; list-style: none; color: var(--ink); }
+.nfl-about > summary::-webkit-details-marker { display: none; }
+.nfl-about > summary::before { content: '+'; display: inline-grid; place-items: center; width: 20px; height: 20px; border: 1.5px solid currentColor; border-radius: 50%; font-size: 15px; line-height: 1; }
+.nfl-about[open] > summary::before { content: '−'; }
+.nfl-about p { margin: var(--space-2) 0 0; }
+.nfl-about .src { color: var(--muted); }
+
+/* ---------- Share (plain links; works without JS) ---------- */
+.nfl-share { position: relative; }
+.nfl-share > summary { display: inline-flex; align-items: center; gap: var(--space-2); min-height: 36px; padding: var(--space-1) var(--space-3); border: 1.5px solid var(--plum-deep); border-radius: var(--radius-md); background: var(--white); color: var(--plum-deep); font-size: 15px; font-weight: 600; list-style: none; }
+.nfl-share > summary::-webkit-details-marker { display: none; }
+.nfl-share ul { position: absolute; right: 0; top: calc(100% + var(--space-2)); z-index: 5; list-style: none; margin: 0; padding: var(--space-2); min-width: 200px; background: var(--white); border: 1px solid var(--rule); border-radius: var(--radius-md); box-shadow: 0 2px 12px rgba(93,44,76,0.08); }
+.nfl-share li a, .nfl-share li button { display: block; width: 100%; text-align: left; padding: var(--space-2) var(--space-3); min-height: 40px; border-radius: var(--radius-sm); color: var(--ink); text-decoration: none; background: none; border: 0; font: inherit; cursor: pointer; }
+.nfl-share li a:hover, .nfl-share li button:hover { background: var(--lilac); }
+.nfl-share__field { width: 100%; font: inherit; font-size: 13px; padding: var(--space-2); margin-top: var(--space-1); border: 1px solid var(--rule); border-radius: var(--radius-sm); }
+.nfl-js .nfl-share__field { display: none; }
+.no-js .nfl-share__copy { display: none; }
+
+/* ---------- Chart frame ---------- */
+.nfl-chart-frame { background: var(--white); border: 2px solid var(--lilac); border-radius: var(--radius-lg); padding: var(--space-6); margin: 0; display: flex; flex-direction: column; gap: var(--space-3); }
+.nfl-chart-frame__title { margin: 0; font-size: 19px; line-height: 26px; font-weight: 600; }
+.nfl-chart-frame__plot { display: flex; justify-content: center; }
+.nfl-chart-frame figcaption { font-size: 17px; line-height: 24px; font-weight: 600; }
+.nfl-chart-frame figcaption .src { display: block; font-weight: 400; font-size: 14px; line-height: 20px; color: var(--muted); }
+.nfl-chart-frame__table table { border-collapse: collapse; margin-top: var(--space-2); width: 100%; font-size: 15px; }
+.nfl-chart-frame__table th, .nfl-chart-frame__table td { text-align: left; padding: var(--space-2); border-bottom: 1px solid var(--rule); }
+.chart { display: block; width: 100%; max-width: 440px; height: auto; font-family: var(--font-sans); }
+.chart .grid { stroke: var(--lilac); }
+.chart .axis-year { fill: var(--muted); }
+.chart .s0 .line { stroke: var(--plum); } .chart .s0 circle, .chart .s0 text { fill: var(--plum); }
+.chart .s1 .line { stroke: var(--deep-blue); } .chart .s1 circle, .chart .s1 text { fill: var(--deep-blue); }
+
+/* ---------- Guess first ---------- */
+.nfl-guess { display: grid; gap: var(--space-3); padding: var(--space-4); border-radius: var(--radius-md); background: var(--lilac-soft); }
+.nfl-guess__q { margin: 0; font-size: 19px; line-height: 26px; font-weight: 600; }
+.nfl-guess label { font-weight: 600; }
+.nfl-guess output { font-size: 22px; font-weight: 700; color: var(--accent); margin-left: var(--space-1); }
+.nfl-guess input[type=range] { width: 100%; accent-color: var(--magenta); min-height: 32px; }
+.nfl-guess__buttons { display: flex; flex-wrap: wrap; align-items: center; gap: var(--space-2); }
+.nfl-guess__result { margin: 0; font-weight: 600; }
+.nfl-guess__result:empty { display: none; }
+.nfl-figure-card.is-guessing .nfl-figure-card__value, .nfl-figure-card.is-guessing .nfl-figure-card__headline, .nfl-figure-card.is-guessing .nfl-figure-card__visual { display: none; }
+
+/* ---------- Myth or number ---------- */
+.nfl-myth { margin: var(--space-12) 0; padding: var(--space-8) var(--space-6); border-radius: var(--radius-lg); background: var(--gradient); color: var(--on-brand); }
+.nfl-myth__label { margin: 0 0 var(--space-2); font-size: 12px; line-height: 16px; font-weight: 600; letter-spacing: .06em; text-transform: uppercase; }
+.nfl-myth__claim { margin: 0 0 var(--space-4); font-size: clamp(22px, 18px + 1vw, 28px); line-height: 1.25; font-weight: 600; max-width: 32ch; }
+.nfl-myth details > summary { display: inline-flex; min-height: 44px; align-items: center; padding: var(--space-2) var(--space-4); border-radius: var(--radius-md); background: var(--white); color: var(--plum-deep); font-weight: 600; list-style: none; }
+.nfl-myth details > summary::-webkit-details-marker { display: none; }
+.nfl-myth details > summary:focus-visible { box-shadow: 0 0 0 3px var(--white), 0 0 0 6px var(--plum-deep); }
+.nfl-myth details p { margin: var(--space-4) 0 0; font-size: 19px; line-height: 28px; max-width: 60ch; }
+.nfl-myth a { color: var(--on-brand); }
+
+.download { margin-top: var(--space-8); }
+
+/* ---------- Motion: only with JS and without "reduce motion" ---------- */
+@media (prefers-reduced-motion: no-preference) {
+  .nfl-js .nfl-chart-frame__plot:not(.in) .draw { stroke-dasharray: var(--len); stroke-dashoffset: var(--len); }
+  .nfl-js .nfl-chart-frame__plot.in .draw { stroke-dasharray: var(--len); animation: nfl-draw 1.1s ease-out forwards; }
+  .nfl-js .nfl-chart-frame__plot:not(.in) .dot-end, .nfl-js .nfl-chart-frame__plot:not(.in) .v-end, .nfl-js .nfl-chart-frame__plot:not(.in) .lab { opacity: 0; }
+  .nfl-js .nfl-chart-frame__plot.in .dot-end, .nfl-js .nfl-chart-frame__plot.in .v-end, .nfl-js .nfl-chart-frame__plot.in .lab { animation: nfl-fade .4s 1s both; }
+  .nfl-js .nfl-figure-card__visual:not(.in) .grow { transform: scaleX(0); }
+  .nfl-js .nfl-figure-card__visual .grow { transform-origin: left; transform-box: fill-box; transition: transform .9s ease-out; }
+  .nfl-js .nfl-figure-card__visual:not(.in) .person, .nfl-js .nfl-figure-card__visual:not(.in) .dot { opacity: .15; }
+  .nfl-js .nfl-figure-card__visual .person { transition: opacity .3s ease-out calc(var(--i) * 70ms); }
+  @keyframes nfl-draw { to { stroke-dashoffset: 0; } }
+  @keyframes nfl-fade { from { opacity: 0; } to { opacity: 1; } }
+}
+
+/* Standalone links: at least 24px tall (WCAG 2.2, 2.5.8) */
+.nfl-brand-line a, .nfl-site-footer a, .nfl-chart-frame figcaption .src a, .nfl-about .src a, .download a { display: inline-block; min-height: 24px; line-height: 24px; }
+
+[hidden] { display: none !important; }

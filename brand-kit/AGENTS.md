@@ -9,5 +9,6 @@ Applies to Claude, ChatGPT, Codex, Hermes and Antigravity (agy) for any Neurofee
 4. **Never invent figures.** Statistics and research numbers come only from the data file named in `figures.md` or the primary source it cites, with source and year. Authority figures, phone numbers, prices and business facts come only from `brand-guide.md` and `skill/references/business-facts.md`.
 5. **Never redraw logos.** Use the files in `logos/` as they are.
 6. **Review with `tests/`** before anything is published: the 12 brand tests are the checklist.
+7. **Take photos, recoveriX images, components and the official accounts from `../design-system/`** (public copy of the Claude Design System; index with direct links in `../llms.txt`). Start with `design-system/README.md`: it adds the main slogan, the SEO keywords and the official social accounts.
 
 Do not keep a private copy of these rules. Read them from this repo, or pin a VERSION and re-check it.
